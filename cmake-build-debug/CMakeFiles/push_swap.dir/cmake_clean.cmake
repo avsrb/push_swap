@@ -1,7 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/push_swap.dir/libft/ft_atoi.c.o"
-  "CMakeFiles/push_swap.dir/libft/ft_isdigit.c.o"
-  "CMakeFiles/push_swap.dir/libft/ft_libft.c.o"
+  "CMakeFiles/push_swap.dir/ft_libft.c.o"
   "CMakeFiles/push_swap.dir/main.c.o"
   "CMakeFiles/push_swap.dir/utils.c.o"
   "CMakeFiles/push_swap.dir/validation.c.o"

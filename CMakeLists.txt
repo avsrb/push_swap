@@ -3,4 +3,4 @@ project(push_swap C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(push_swap main.c utils.c validation.c ./libft/libft.a ./libft/ft_atoi.c ./libft/ft_isdigit.c libft/ft_libft.c)
+add_executable(push_swap main.c utils.c validation.c ft_libft.c)

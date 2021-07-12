@@ -78,16 +78,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/mshmelly/CLionProjects/push_swap/libft/ft_atoi.c">
-			<Option target="push_swap"/>
-		</Unit>
-		<Unit filename="/Users/mshmelly/CLionProjects/push_swap/libft/ft_isdigit.c">
-			<Option target="push_swap"/>
-		</Unit>
-		<Unit filename="/Users/mshmelly/CLionProjects/push_swap/libft/ft_libft.c">
-			<Option target="push_swap"/>
-		</Unit>
-		<Unit filename="/Users/mshmelly/CLionProjects/push_swap/libft/libft.a">
+		<Unit filename="/Users/mshmelly/CLionProjects/push_swap/ft_libft.c">
 			<Option target="push_swap"/>
 		</Unit>
 		<Unit filename="/Users/mshmelly/CLionProjects/push_swap/main.c">

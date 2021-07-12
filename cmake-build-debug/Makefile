@@ -142,86 +142,32 @@ push_swap/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/build
 .PHONY : push_swap/fast
 
-libft/ft_atoi.o: libft/ft_atoi.c.o
+ft_libft.o: ft_libft.c.o
 
-.PHONY : libft/ft_atoi.o
-
-# target to build an object file
-libft/ft_atoi.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ft_atoi.c.o
-.PHONY : libft/ft_atoi.c.o
-
-libft/ft_atoi.i: libft/ft_atoi.c.i
-
-.PHONY : libft/ft_atoi.i
-
-# target to preprocess a source file
-libft/ft_atoi.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ft_atoi.c.i
-.PHONY : libft/ft_atoi.c.i
-
-libft/ft_atoi.s: libft/ft_atoi.c.s
-
-.PHONY : libft/ft_atoi.s
-
-# target to generate assembly for a file
-libft/ft_atoi.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ft_atoi.c.s
-.PHONY : libft/ft_atoi.c.s
-
-libft/ft_isdigit.o: libft/ft_isdigit.c.o
-
-.PHONY : libft/ft_isdigit.o
+.PHONY : ft_libft.o
 
 # target to build an object file
-libft/ft_isdigit.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ft_isdigit.c.o
-.PHONY : libft/ft_isdigit.c.o
+ft_libft.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/ft_libft.c.o
+.PHONY : ft_libft.c.o
 
-libft/ft_isdigit.i: libft/ft_isdigit.c.i
+ft_libft.i: ft_libft.c.i
 
-.PHONY : libft/ft_isdigit.i
-
-# target to preprocess a source file
-libft/ft_isdigit.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ft_isdigit.c.i
-.PHONY : libft/ft_isdigit.c.i
-
-libft/ft_isdigit.s: libft/ft_isdigit.c.s
-
-.PHONY : libft/ft_isdigit.s
-
-# target to generate assembly for a file
-libft/ft_isdigit.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ft_isdigit.c.s
-.PHONY : libft/ft_isdigit.c.s
-
-libft/ft_libft.o: libft/ft_libft.c.o
-
-.PHONY : libft/ft_libft.o
-
-# target to build an object file
-libft/ft_libft.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ft_libft.c.o
-.PHONY : libft/ft_libft.c.o
-
-libft/ft_libft.i: libft/ft_libft.c.i
-
-.PHONY : libft/ft_libft.i
+.PHONY : ft_libft.i
 
 # target to preprocess a source file
-libft/ft_libft.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ft_libft.c.i
-.PHONY : libft/ft_libft.c.i
+ft_libft.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/ft_libft.c.i
+.PHONY : ft_libft.c.i
 
-libft/ft_libft.s: libft/ft_libft.c.s
+ft_libft.s: ft_libft.c.s
 
-.PHONY : libft/ft_libft.s
+.PHONY : ft_libft.s
 
 # target to generate assembly for a file
-libft/ft_libft.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ft_libft.c.s
-.PHONY : libft/ft_libft.c.s
+ft_libft.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/ft_libft.c.s
+.PHONY : ft_libft.c.s
 
 main.o: main.c.o
 
@@ -313,15 +259,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... push_swap"
-	@echo "... libft/ft_atoi.o"
-	@echo "... libft/ft_atoi.i"
-	@echo "... libft/ft_atoi.s"
-	@echo "... libft/ft_isdigit.o"
-	@echo "... libft/ft_isdigit.i"
-	@echo "... libft/ft_isdigit.s"
-	@echo "... libft/ft_libft.o"
-	@echo "... libft/ft_libft.i"
-	@echo "... libft/ft_libft.s"
+	@echo "... ft_libft.o"
+	@echo "... ft_libft.i"
+	@echo "... ft_libft.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

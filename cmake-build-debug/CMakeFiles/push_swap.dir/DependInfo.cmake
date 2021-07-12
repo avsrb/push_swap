@@ -4,9 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/mshmelly/CLionProjects/push_swap/libft/ft_atoi.c" "/Users/mshmelly/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_atoi.c.o"
-  "/Users/mshmelly/CLionProjects/push_swap/libft/ft_isdigit.c" "/Users/mshmelly/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_isdigit.c.o"
-  "/Users/mshmelly/CLionProjects/push_swap/libft/ft_libft.c" "/Users/mshmelly/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_libft.c.o"
+  "/Users/mshmelly/CLionProjects/push_swap/ft_libft.c" "/Users/mshmelly/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/ft_libft.c.o"
   "/Users/mshmelly/CLionProjects/push_swap/main.c" "/Users/mshmelly/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/main.c.o"
   "/Users/mshmelly/CLionProjects/push_swap/utils.c" "/Users/mshmelly/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/utils.c.o"
   "/Users/mshmelly/CLionProjects/push_swap/validation.c" "/Users/mshmelly/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/validation.c.o"

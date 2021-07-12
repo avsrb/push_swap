@@ -10,7 +10,7 @@ int	ft_atoi(const char *str)
 	i = 0;
 	convert = 0;
 	if ((str[i] >= 9 && str[i] <= 13) || str[i] == 32 || \
-		str[i] == '-' || str[i] == '+' || str[i] >= '0' && str[i] <= '9')
+		str[i] == '-' || str[i] == '+' || ((str[i] >= '0' && str[i] <= '9')))
 	{
 		while ((str[i] >= 9 && str[i] <= 13) || str[i] == 32)
 			i++;
@@ -27,5 +27,6 @@ int	ft_atoi(const char *str)
 	}
 	ft_error();
 }
+
 
 
