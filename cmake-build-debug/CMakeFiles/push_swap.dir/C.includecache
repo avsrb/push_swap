@@ -6,10 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/Users/mshmelly/CLionProjects/push_swap/ft_libft.c
-push_swap.h
-/Users/mshmelly/CLionProjects/push_swap/push_swap.h
-
 /Users/mshmelly/CLionProjects/push_swap/libft/get_next_line.h
 stdio.h
 -
@@ -45,12 +41,4 @@ unistd.h
 -
 string.h
 -
-
-/Users/mshmelly/CLionProjects/push_swap/utils.c
-push_swap.h
-/Users/mshmelly/CLionProjects/push_swap/push_swap.h
-
-/Users/mshmelly/CLionProjects/push_swap/validation.c
-push_swap.h
-/Users/mshmelly/CLionProjects/push_swap/push_swap.h
 

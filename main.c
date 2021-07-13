@@ -169,8 +169,7 @@ int	ft_lstsize(t_list *lst)
 	return (i);
 }
 
-
-void 	from_array(int argc, char **argv, t_list *head)
+void 	from_array(int argc, char **argv, t_list **a)
 {
 	int i;
 	int nbr;
@@ -178,22 +177,22 @@ void 	from_array(int argc, char **argv, t_list *head)
 	i = 1;
 	while (i < argc)
 	{
-		nbr = ft_atoi(argv[i]);
-
-		while (head != NULL && head->content != NULL)
-
+		nbr = ft_atoi_int(argv[i]);
+		ft_lstfind(*a, nbr);
+		ft_lstadd_back(a, ft_lstnew(nbr));
 		i++;
 	}
 }
 
 int	main(int argc, char **argv)
 {
-	t_list a;
+	t_list *a;
 	int i = 1;
 
+//	a = NULL;
 	if (argc < 2)
 		ft_error();
 	validation(argc, argv);
-	from_array(argc, argv, &a); // заменить стрел
+	from_array(argc, argv, &a);
 	return(0);
 }
