@@ -143,6 +143,7 @@ push_swap: CMakeFiles/push_swap.dir/utils.c.o
 push_swap: CMakeFiles/push_swap.dir/validation.c.o
 push_swap: CMakeFiles/push_swap.dir/ft_libft.c.o
 push_swap: CMakeFiles/push_swap.dir/build.make
+push_swap: ../libft/libft.a
 push_swap: CMakeFiles/push_swap.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mshmelly/CLionProjects/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable push_swap"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/push_swap.dir/link.txt --verbose=$(VERBOSE)

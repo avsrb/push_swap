@@ -13,10 +13,12 @@ LIST	=	ft_atoi.c			ft_bzero.c			ft_isalnum.c\
 			ft_putnbr_fd.c		ft_split.c			ft_itoa.c\
 			ft_strmapi.c		ft_strnew.c			ft_strcpy.c\
 			ft_strclr.c			get_next_line.c		get_next_line_utils.c\
+			ft_atoi_int.c		ft_error.c
 
 LIST_B	=	ft_lstnew.c			ft_lstadd_front.c	ft_lstsize.c\
 			ft_lstlast.c		ft_lstadd_back.c	ft_lstdelone.c\
-			ft_lstclear.c		ft_lstiter.c		ft_lstmap.c
+			ft_lstclear.c		ft_lstiter.c		ft_lstmap.c\
+			ft_lstfind.c
 			
 HEADER	=	libft.h	get_next_line.h
 

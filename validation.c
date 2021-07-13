@@ -5,8 +5,6 @@ int	validation(int argc, char **argv)
 	while (*(++argv))
 	{
 		skipping(*argv);
-
-
 	}
 	return(1);
 }
@@ -22,7 +20,7 @@ void skipping(char *str)
 			i++;
 		else if (str[i] >= '0' && str[i] <= '9')
 			i++;
-		else if (str[i] == '+' && str[i] == '-')
+		else if (str[i] == '+' || str[i] == '-')
 			i++;
 		else
 			ft_error();
