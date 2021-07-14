@@ -7,7 +7,7 @@ void	push(t_list **head, int data)
 	t_list	*tmp;
 
 	tmp = malloc(sizeof(*tmp));
-	tmp->content = data;
+	tmp->data = data;
 	tmp->next = *head;
 	*head = tmp;
 }
@@ -19,9 +19,9 @@ int pop(t_list **head)
 
 	prev = NULL;
 	if (head == NULL)
-		ft_error();
+		ft_error(0);
 	prev = (*head);
-	val = prev->content;
+	val = prev->data;
 	(*head) = (*head)->next;
 	free (prev);
 	return val;
@@ -56,7 +56,7 @@ void push_back(t_list *head, int value)
 
 	last = get_last(head);
 	tmp = malloc(sizeof(t_list));
-	tmp->content = value;
+	tmp->data = value;
 	tmp->next = NULL;
 	last->next = tmp;
 }
@@ -64,7 +64,7 @@ void push_back(t_list *head, int value)
 t_list	*get_last_but_one(t_list *head)
 {
 	if (head == NULL)
-		ft_error();
+		ft_error(0);
 	if (head->next == NULL)
 		return (NULL);
 	while (head->next->next)
@@ -80,9 +80,9 @@ int	pop_back(t_list **head)
 	p_bwd = NULL;
 
 	if (!head)
-		ft_error();
+		ft_error(0);
 	if (!(*head))
-		ft_error();
+		ft_error(0);
 	p_fwd = *head;
 	while (p_fwd->next)
 	{
@@ -99,6 +99,7 @@ int	pop_back(t_list **head)
 		free(p_fwd->next);
 		p_bwd->next = NULL;
 	}
+	return (0);
 }
 
 void insert (t_list *head, unsigned n, int val)
@@ -115,7 +116,7 @@ void insert (t_list *head, unsigned n, int val)
 		i++;
 	}
 	tmp = malloc(sizeof(t_list));
-	tmp->content = val;
+	tmp->data = val;
 	if (head->next)
 		tmp->next = head->next;
 	else
@@ -135,7 +136,7 @@ int	del_n(t_list **head, int n)
 
 		prev = get_n(*head, n - 1);
 		elm = prev->next;
-		val = elm->content;
+		val = elm->data;
 		prev->next = elm->next;
 		free(elm);
 		return (val);
@@ -175,24 +176,42 @@ void 	from_array(int argc, char **argv, t_list **a)
 	int nbr;
 
 	i = 1;
-	while (i < argc)
+	if (argc == 2)
+	{
+		argv = ft_split(argv[1], ' ');
+		i = 0;
+	}
+	while (argv[i])
 	{
 		nbr = ft_atoi_int(argv[i]);
 		ft_lstfind(*a, nbr);
-		ft_lstadd_back(a, ft_lstnew(nbr));
+		ft_lstadd_front(a, ft_lstnew(nbr));
 		i++;
 	}
+}
+
+int	chech_sort(t_list *list)
+{
+	while (list->next && list->data < list->next->data)
+		list = list->next;
+	return (list->next == NULL);
 }
 
 int	main(int argc, char **argv)
 {
 	t_list *a;
-	int i = 1;
 
-//	a = NULL;
 	if (argc < 2)
-		ft_error();
-	validation(argc, argv);
+		ft_error("Not enough arguments\n");
+	if (validation(argc, argv))
+		ft_error(0);
 	from_array(argc, argv, &a);
+	if (!chech_sort(a))
+		return (0);
+	while (a)
+	{
+		printf("%d\n", a->data);
+		a = a->next;
+	}
 	return(0);
 }

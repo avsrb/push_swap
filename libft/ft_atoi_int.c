@@ -20,6 +20,6 @@ int	ft_atoi_int(const char *str)
 	while (str[i] >= '0' && str[i] <= '9')
 		convert = convert * 10 + (str[i++] - '0') * negative;
 	if (convert > 2147483647 || convert < -2147483648)
-		ft_error();
+		ft_error(0);
 	return (convert);
 }

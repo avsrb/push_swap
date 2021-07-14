@@ -13,7 +13,7 @@ static char	**ft_memory_error (char **ptr_str)
 	}
 	free(ptr_str);
 	ptr_str = NULL;
-	return (0);
+	return (NULL);
 }
 
 static unsigned int	ft_count_new_str (char const *str, char c)
@@ -59,12 +59,12 @@ char	**ft_split(char const *s, char c)
 	char			**ptr_str;
 
 	if (!s)
-		return (0);
+		return (NULL);
 	i = -1;
 	lines = ft_count_new_str (s, c);
 	ptr_str = (char **)malloc(sizeof(char *) * (lines + 1));
 	if (!ptr_str)
-		return (0);
+		return (NULL);
 	pos = 0;
 	while (++i < lines)
 	{

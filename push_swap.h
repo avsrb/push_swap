@@ -15,8 +15,7 @@ typedef struct s_params
 
 
 int		validation(int argc, char **argv);
-void	ft_error(void);
-void	skipping(char *str);
+int		skipping(char *str);
 void 	digit(char *str);
 
 

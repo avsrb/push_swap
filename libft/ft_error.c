@@ -1,7 +1,10 @@
 #include "libft.h"
 
-void	ft_error(void)
+void	ft_error(char *s)
 {
-	ft_putstr_fd("Error\n", 2);
+	if(s)
+		ft_putstr_fd(s, 2);
+	else
+		ft_putstr_fd("Error\n", 2);
 	exit(1);
 }
