@@ -63,10 +63,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/mshmelly/CLionProjects/push_swap
+CMAKE_SOURCE_DIR = /Users/artem/21/CLionProjects/push_swap
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/mshmelly/CLionProjects/push_swap/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/artem/21/CLionProjects/push_swap/cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -93,14 +93,14 @@ clean: CMakeFiles/push_swap.dir/clean
 CMakeFiles/push_swap.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/mshmelly/CLionProjects/push_swap/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5 "Built target push_swap"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/artem/21/CLionProjects/push_swap/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10 "Built target push_swap"
 .PHONY : CMakeFiles/push_swap.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/push_swap.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mshmelly/CLionProjects/push_swap/cmake-build-debug/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/artem/21/CLionProjects/push_swap/cmake-build-debug/CMakeFiles 10
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/push_swap.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mshmelly/CLionProjects/push_swap/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/artem/21/CLionProjects/push_swap/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/push_swap.dir/rule
 
 # Convenience name for target.

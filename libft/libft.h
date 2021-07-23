@@ -10,6 +10,7 @@ typedef struct s_list
 {
 	int				data;
 	struct s_list	*next;
+	int				index;
 }				t_list;
 
 void	*ft_memset(void *b, int c, size_t len);

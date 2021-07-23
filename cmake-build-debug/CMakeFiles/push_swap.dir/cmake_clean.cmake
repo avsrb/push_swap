@@ -1,6 +1,11 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/push_swap.dir/ft_libft.c.o"
+  "CMakeFiles/push_swap.dir/action/push.c.o"
+  "CMakeFiles/push_swap.dir/action/reverce_rorate.c.o"
+  "CMakeFiles/push_swap.dir/action/rotate.c.o"
+  "CMakeFiles/push_swap.dir/action/swap.c.o"
+  "CMakeFiles/push_swap.dir/from_the_article.c.o"
   "CMakeFiles/push_swap.dir/main.c.o"
+  "CMakeFiles/push_swap.dir/sort.c.o"
   "CMakeFiles/push_swap.dir/utils.c.o"
   "CMakeFiles/push_swap.dir/validation.c.o"
   "push_swap"

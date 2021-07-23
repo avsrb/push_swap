@@ -23,6 +23,8 @@ int skipping(char *str)
 
 int	validation(int argc, char **argv)
 {
+	if (argc < 2)
+		ft_error("Not enough arguments\n");
 	while (*(++argv))
 	{
 		return(skipping(*argv));

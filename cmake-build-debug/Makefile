@@ -67,10 +67,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/mshmelly/CLionProjects/push_swap
+CMAKE_SOURCE_DIR = /Users/artem/21/CLionProjects/push_swap
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/mshmelly/CLionProjects/push_swap/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/artem/21/CLionProjects/push_swap/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -99,9 +99,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mshmelly/CLionProjects/push_swap/cmake-build-debug/CMakeFiles /Users/mshmelly/CLionProjects/push_swap/cmake-build-debug//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/artem/21/CLionProjects/push_swap/cmake-build-debug/CMakeFiles /Users/artem/21/CLionProjects/push_swap/cmake-build-debug//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mshmelly/CLionProjects/push_swap/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/artem/21/CLionProjects/push_swap/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -142,32 +142,140 @@ push_swap/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/build
 .PHONY : push_swap/fast
 
-ft_libft.o: ft_libft.c.o
+action/push.o: action/push.c.o
 
-.PHONY : ft_libft.o
+.PHONY : action/push.o
 
 # target to build an object file
-ft_libft.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/ft_libft.c.o
-.PHONY : ft_libft.c.o
+action/push.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/action/push.c.o
+.PHONY : action/push.c.o
 
-ft_libft.i: ft_libft.c.i
+action/push.i: action/push.c.i
 
-.PHONY : ft_libft.i
+.PHONY : action/push.i
 
 # target to preprocess a source file
-ft_libft.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/ft_libft.c.i
-.PHONY : ft_libft.c.i
+action/push.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/action/push.c.i
+.PHONY : action/push.c.i
 
-ft_libft.s: ft_libft.c.s
+action/push.s: action/push.c.s
 
-.PHONY : ft_libft.s
+.PHONY : action/push.s
 
 # target to generate assembly for a file
-ft_libft.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/ft_libft.c.s
-.PHONY : ft_libft.c.s
+action/push.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/action/push.c.s
+.PHONY : action/push.c.s
+
+action/reverce_rorate.o: action/reverce_rorate.c.o
+
+.PHONY : action/reverce_rorate.o
+
+# target to build an object file
+action/reverce_rorate.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/action/reverce_rorate.c.o
+.PHONY : action/reverce_rorate.c.o
+
+action/reverce_rorate.i: action/reverce_rorate.c.i
+
+.PHONY : action/reverce_rorate.i
+
+# target to preprocess a source file
+action/reverce_rorate.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/action/reverce_rorate.c.i
+.PHONY : action/reverce_rorate.c.i
+
+action/reverce_rorate.s: action/reverce_rorate.c.s
+
+.PHONY : action/reverce_rorate.s
+
+# target to generate assembly for a file
+action/reverce_rorate.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/action/reverce_rorate.c.s
+.PHONY : action/reverce_rorate.c.s
+
+action/rotate.o: action/rotate.c.o
+
+.PHONY : action/rotate.o
+
+# target to build an object file
+action/rotate.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/action/rotate.c.o
+.PHONY : action/rotate.c.o
+
+action/rotate.i: action/rotate.c.i
+
+.PHONY : action/rotate.i
+
+# target to preprocess a source file
+action/rotate.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/action/rotate.c.i
+.PHONY : action/rotate.c.i
+
+action/rotate.s: action/rotate.c.s
+
+.PHONY : action/rotate.s
+
+# target to generate assembly for a file
+action/rotate.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/action/rotate.c.s
+.PHONY : action/rotate.c.s
+
+action/swap.o: action/swap.c.o
+
+.PHONY : action/swap.o
+
+# target to build an object file
+action/swap.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/action/swap.c.o
+.PHONY : action/swap.c.o
+
+action/swap.i: action/swap.c.i
+
+.PHONY : action/swap.i
+
+# target to preprocess a source file
+action/swap.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/action/swap.c.i
+.PHONY : action/swap.c.i
+
+action/swap.s: action/swap.c.s
+
+.PHONY : action/swap.s
+
+# target to generate assembly for a file
+action/swap.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/action/swap.c.s
+.PHONY : action/swap.c.s
+
+from_the_article.o: from_the_article.c.o
+
+.PHONY : from_the_article.o
+
+# target to build an object file
+from_the_article.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/from_the_article.c.o
+.PHONY : from_the_article.c.o
+
+from_the_article.i: from_the_article.c.i
+
+.PHONY : from_the_article.i
+
+# target to preprocess a source file
+from_the_article.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/from_the_article.c.i
+.PHONY : from_the_article.c.i
+
+from_the_article.s: from_the_article.c.s
+
+.PHONY : from_the_article.s
+
+# target to generate assembly for a file
+from_the_article.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/from_the_article.c.s
+.PHONY : from_the_article.c.s
 
 main.o: main.c.o
 
@@ -195,6 +303,33 @@ main.s: main.c.s
 main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/main.c.s
 .PHONY : main.c.s
+
+sort.o: sort.c.o
+
+.PHONY : sort.o
+
+# target to build an object file
+sort.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sort.c.o
+.PHONY : sort.c.o
+
+sort.i: sort.c.i
+
+.PHONY : sort.i
+
+# target to preprocess a source file
+sort.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sort.c.i
+.PHONY : sort.c.i
+
+sort.s: sort.c.s
+
+.PHONY : sort.s
+
+# target to generate assembly for a file
+sort.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sort.c.s
+.PHONY : sort.c.s
 
 utils.o: utils.c.o
 
@@ -259,12 +394,27 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... push_swap"
-	@echo "... ft_libft.o"
-	@echo "... ft_libft.i"
-	@echo "... ft_libft.s"
+	@echo "... action/push.o"
+	@echo "... action/push.i"
+	@echo "... action/push.s"
+	@echo "... action/reverce_rorate.o"
+	@echo "... action/reverce_rorate.i"
+	@echo "... action/reverce_rorate.s"
+	@echo "... action/rotate.o"
+	@echo "... action/rotate.i"
+	@echo "... action/rotate.s"
+	@echo "... action/swap.o"
+	@echo "... action/swap.i"
+	@echo "... action/swap.s"
+	@echo "... from_the_article.o"
+	@echo "... from_the_article.i"
+	@echo "... from_the_article.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... sort.o"
+	@echo "... sort.i"
+	@echo "... sort.s"
 	@echo "... utils.o"
 	@echo "... utils.i"
 	@echo "... utils.s"

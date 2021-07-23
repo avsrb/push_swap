@@ -4,10 +4,15 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/mshmelly/CLionProjects/push_swap/ft_libft.c" "/Users/mshmelly/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/ft_libft.c.o"
-  "/Users/mshmelly/CLionProjects/push_swap/main.c" "/Users/mshmelly/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/main.c.o"
-  "/Users/mshmelly/CLionProjects/push_swap/utils.c" "/Users/mshmelly/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/utils.c.o"
-  "/Users/mshmelly/CLionProjects/push_swap/validation.c" "/Users/mshmelly/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/validation.c.o"
+  "/Users/artem/21/CLionProjects/push_swap/action/push.c" "/Users/artem/21/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/action/push.c.o"
+  "/Users/artem/21/CLionProjects/push_swap/action/reverce_rorate.c" "/Users/artem/21/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/action/reverce_rorate.c.o"
+  "/Users/artem/21/CLionProjects/push_swap/action/rotate.c" "/Users/artem/21/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/action/rotate.c.o"
+  "/Users/artem/21/CLionProjects/push_swap/action/swap.c" "/Users/artem/21/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/action/swap.c.o"
+  "/Users/artem/21/CLionProjects/push_swap/from_the_article.c" "/Users/artem/21/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/from_the_article.c.o"
+  "/Users/artem/21/CLionProjects/push_swap/main.c" "/Users/artem/21/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/main.c.o"
+  "/Users/artem/21/CLionProjects/push_swap/sort.c" "/Users/artem/21/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/sort.c.o"
+  "/Users/artem/21/CLionProjects/push_swap/utils.c" "/Users/artem/21/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/utils.c.o"
+  "/Users/artem/21/CLionProjects/push_swap/validation.c" "/Users/artem/21/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/validation.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 
