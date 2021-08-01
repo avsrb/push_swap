@@ -22,9 +22,9 @@ int		check_sort(t_list *list);
 int		sort(t_stack *stack);
 
 //action
-void	swap(t_list **stack);
-void	rotate(t_list **stack);
-void	reverse_rotate(t_list **stack);
+void	swap(t_stack *stack, char name);
+void	rotate(t_stack *stack, char name);
+void	reverse_rotate(t_stack *stack, char name);
 void	push(t_stack *stack, char name);
 
 

@@ -36,19 +36,19 @@ int	check_sort(t_list *list)
 	return (0);
 }
 
-void	indexing(t_list *list)
-{
-	int	index;
-
-	index = 0;
-	while (list->next)
-	{
-		list->index = index;
-		index++;
-		list = list->next;
-	}
-	list->index = index;
-}
+//void	indexing(t_list *list)
+//{
+//	int	index;
+//
+//	index = 0;
+//	while (list->next)
+//	{
+//		list->index = index;
+//		index++;
+//		list = list->next;
+//	}
+//	list->index = index;
+//}
 
 int	main(int argc, char **argv)
 {
