@@ -2,15 +2,14 @@
 
 void	sort_three_elem(t_stack *stack)
 {
-	t_list	*sec;
-
-	sec = stack->a->next;
-	if (stack->a->data > stack->a->next->data && stack->a->data > stack->a->next->next->data ||\
-		stack->a->data < stack->a->next->data && stack->a->data > stack->a->next->next->data ||\
-		stack->a->data > stack->a->next->data && stack->a->data < stack->a->next->next->data)
+	if ((stack->a->data > stack->a->next->data && stack->a->data < stack->a->next->next->data)
+		|| (stack->a->data > stack->a->next->data && stack->a->data > stack->a->next->next->data && stack->a->next->data > stack->a->next->next->data)
+		|| (stack->a->data < stack->a->next->data && stack->a->data < stack->a->next->next->data && stack->a->next->data > stack->a->next->next->data))
 		swap(stack, 'a');
-	if (stack->a->data > stack->a->next->data && stack->a->data > stack->a->next->next->data)
-		rotate()
+	if (stack->a->next->next->data < stack->a->data && stack->a->data < stack->a->next->data)
+		reverse_rotate(stack, 'a');
+	if (stack->a->data > stack->a->next->data && stack->a->next->data < stack->a->next->next->data)
+		rotate(stack, 'a');
 	return ;
 }
 

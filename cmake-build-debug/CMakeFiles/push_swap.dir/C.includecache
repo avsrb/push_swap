@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/artem/21/CLionProjects/push_swap/libft/get_next_line.h
+/Users/mshmelly/21/1push_swap/libft/get_next_line.h
 stdio.h
 -
 stdlib.h
@@ -16,7 +16,7 @@ fcntl.h
 unistd.h
 -
 
-/Users/artem/21/CLionProjects/push_swap/libft/libft.h
+/Users/mshmelly/21/1push_swap/libft/libft.h
 stddef.h
 -
 stdlib.h
@@ -24,11 +24,11 @@ stdlib.h
 unistd.h
 -
 get_next_line.h
-/Users/artem/21/CLionProjects/push_swap/libft/get_next_line.h
+/Users/mshmelly/21/1push_swap/libft/get_next_line.h
 
-/Users/artem/21/CLionProjects/push_swap/push_swap.h
+/Users/mshmelly/21/1push_swap/push_swap.h
 ./libft/libft.h
-/Users/artem/21/CLionProjects/push_swap/libft/libft.h
+/Users/mshmelly/21/1push_swap/libft/libft.h
 stdio.h
 -
 stdlib.h
@@ -40,7 +40,7 @@ string.h
 stdbool.h
 -
 
-/Users/artem/21/CLionProjects/push_swap/sort.c
+/Users/mshmelly/21/1push_swap/sort.c
 push_swap.h
-/Users/artem/21/CLionProjects/push_swap/push_swap.h
+/Users/mshmelly/21/1push_swap/push_swap.h
 
