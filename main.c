@@ -1,7 +1,5 @@
 #include "push_swap.h"
 
-
-
 void 	from_array(int argc, char **argv, t_list **a)
 {
 	int i;
@@ -36,19 +34,6 @@ int	check_sort(t_list *list)
 	return (0);
 }
 
-//void	indexing(t_list *list)
-//{
-//	int	index;
-//
-//	index = 0;
-//	while (list->next)
-//	{
-//		list->index = index;
-//		index++;
-//		list = list->next;
-//	}
-//	list->index = index;
-//}
 
 int	main(int argc, char **argv)
 {
@@ -59,11 +44,9 @@ int	main(int argc, char **argv)
 	from_array(argc, argv, &stack.a);
 	if (!check_sort(stack.a))
 		return (0);
-	//indexing (stack.a);
 	sort(&stack);
 	while (stack.a || stack.b)
 	{
-//		printf("index %d\n", stack.a->index);
 		printf("data_a ");
 		if (stack.a)
 			printf("%d", stack.a->data);

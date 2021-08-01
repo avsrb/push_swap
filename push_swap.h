@@ -13,6 +13,8 @@ typedef struct s_stack
 {
 	t_list	*a;
 	t_list	*b;
+	int	size;
+	int max_a;
 }			t_stack;
 
 
