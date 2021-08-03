@@ -37,17 +37,72 @@ void	sort_three_elem(t_stack *stack, char name)
 	return ;
 }
 
-void	sort_main(t_stack *stack)
+int	ft_mod(int i)
+{
+	if (i < 0)
+		return (i * -1);
+	return (i);
+}
+
+t_list	*nearest_value(t_stack stack)
+{
+	int found;
+	t_list tmp;
+
+	tmp.data = 2147483647;
+	while (stack.a)
+	{
+		if (found < 0)
+			found = -found;
+		if (stack.a->data > stack.b->data && stack.a->data - stack.b->data < tmp.data - stack.b->data)
+			tmp = *stack.a;
+//		else if (stack.a->data  <= stack.b->data && stack.a->data - stack.b->data >= found - stack.b->data)
+//			found = stack.a->data;
+		stack.a = stack.a->next;
+	}
+	printf("found %d\n", tmp.data);
+	//return (tmp);
+}
+
+
+//t_list	*nearest_value(t_stack stack)
+//{
+//	int diff_const;
+//	int diff_tmp;
+//	t_list *tmp;
+//	diff_const = 2147483647;
+//	while (stack.a)
+//	{
+//		if (diff_tmp < 0)
+//			diff_tmp = -diff_tmp;
+//		diff_tmp = stack.a->data - stack.b->data;
+//		if (diff_const > diff_tmp)
+//		{
+//			diff_const = diff_tmp;
+//		}
+//		stack.a = stack.a->next;
+//	}
+//	printf("found %d\n", diff_const);
+//	printf("data %d\n", tmp->data);
+//}
+
+
+void	sort_main(t_stack *st)
 {
 	int	i;
 	i = 3;
+	int	len = st->size;
+	while (i++ < len)
+	{
+//		if (st->a->data < st->max_a && )
+		push(st, 'b');
+	}
+	sort_three_elem(st, 'a');
+	for (int a = 0; a < 18; a++)
+		push(st, 'a');
 
-	while (stack->size >= ++i)
-		push(stack, 'b');
-	sort_three_elem(stack, 'a');
-	stack->max_a = ft_lstlast(stack->a);
-	if (stack->b->data > stack->max_a)
-		push (stack, 'b');
+
+	nearest_value(*st);
 
 	return ;
 }
@@ -65,15 +120,6 @@ int		sort(t_stack *stack)
 		sort_three_elem(stack, 'a');
 	if (stack->size > 5)
 		sort_main(stack);
-
-
-//	push(stack, 'b');
-//	swap(stack, 'b');
-//	reverse_rotate(stack, 'a');
-//	rotate(stack, 'b');
-
-
-
 
 	return (0);
 }

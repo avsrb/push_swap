@@ -24,6 +24,8 @@ void 	from_array(int argc, char **argv, t_list **a)
 
 int	check_sort(t_list *list)
 {
+	if (!list || !list->next)
+		return (0);
 	while (list->next)
 	{
 		if (list->data < list->next->data)
@@ -33,7 +35,6 @@ int	check_sort(t_list *list)
 	}
 	return (0);
 }
-
 
 int	main(int argc, char **argv)
 {

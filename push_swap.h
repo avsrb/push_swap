@@ -30,7 +30,4 @@ void	reverse_rotate(t_stack *stack, char name);
 void	push(t_stack *stack, char name);
 
 
-
-
-
 #endif
