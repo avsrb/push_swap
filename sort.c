@@ -46,26 +46,30 @@ int	ft_mod(int i)
 
 
 
-int	nearest_value(t_stack stack)
+int	nearest_value(t_stack *stack)
 {
-	t_list tmp;
+    t_list *tmp = stack->a;
+    int found;
+    int found_index = 0;
+    int index = 0;
 
-	tmp.data = stack.a->data; //
-	while (stack.a)
+    found = tmp->data; //
+	while (tmp)
 	{
-		if (tmp.data < 0)
-			tmp.data = -tmp.data;
-		// находим меньше текущего
-		if (stack.a->data < stack.b->data && stack.b->data - stack.a->data < stack.b->data - tmp.data)
-			tmp.data = stack.a->data;
-		//находим больше текущего
-//		if (stack.a->data > stack.b->data && stack.a->data - stack.b->data < stack.b->data - tmp.data)
-//			tmp = *stack.a;
-
-		stack.a = stack.a->next;
+        if (found > tmp->data && stack->b->data > found) {
+            found = tmp->data;
+            found_index = index;
+        }
+        if (tmp->data > stack->b->data && (found < stack->b->data || tmp->data < found))
+        {
+            found = tmp->data;
+            found_index = index;
+        }
+        index++;
+		tmp = tmp->next;
 	}
-	printf("found %d\n", tmp.data);
-	return (tmp.data);
+//	printf("found %d\n", found_index);
+	return (found_index);
 }
 
 //t_list	*nearest_value(t_stack stack)
@@ -102,16 +106,20 @@ void	sort_main(t_stack *st)
 	sort_three_elem(st, 'a');
 	while (st->b)
 	{
-		while (st->a->data != nearest_value(*st))
+		while (nearest_value(st))
 		{
 			rotate(st, 'a');
 		}
 		push(st, 'a');
 	}
+    while (check_sort(st->a))
+    {
+        rotate(st, 'a');
+    }
 
 
 
-//	nearest_value(*st);
+//	nearest_value(st);
 
 	return ;
 }
