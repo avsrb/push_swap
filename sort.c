@@ -44,26 +44,29 @@ int	ft_mod(int i)
 	return (i);
 }
 
-t_list	*nearest_value(t_stack stack)
+
+
+int	nearest_value(t_stack stack)
 {
-	int found;
 	t_list tmp;
 
-	tmp.data = 2147483647;
+	tmp.data = stack.a->data; //
 	while (stack.a)
 	{
-		if (found < 0)
-			found = -found;
-		if (stack.a->data > stack.b->data && stack.a->data - stack.b->data < tmp.data - stack.b->data)
-			tmp = *stack.a;
-//		else if (stack.a->data  <= stack.b->data && stack.a->data - stack.b->data >= found - stack.b->data)
-//			found = stack.a->data;
+		if (tmp.data < 0)
+			tmp.data = -tmp.data;
+		// находим меньше текущего
+		if (stack.a->data < stack.b->data && stack.b->data - stack.a->data < stack.b->data - tmp.data)
+			tmp.data = stack.a->data;
+		//находим больше текущего
+//		if (stack.a->data > stack.b->data && stack.a->data - stack.b->data < stack.b->data - tmp.data)
+//			tmp = *stack.a;
+
 		stack.a = stack.a->next;
 	}
 	printf("found %d\n", tmp.data);
-	//return (tmp);
+	return (tmp.data);
 }
-
 
 //t_list	*nearest_value(t_stack stack)
 //{
@@ -86,7 +89,6 @@ t_list	*nearest_value(t_stack stack)
 //	printf("data %d\n", tmp->data);
 //}
 
-
 void	sort_main(t_stack *st)
 {
 	int	i;
@@ -98,11 +100,18 @@ void	sort_main(t_stack *st)
 		push(st, 'b');
 	}
 	sort_three_elem(st, 'a');
-	for (int a = 0; a < 18; a++)
+	while (st->b)
+	{
+		while (st->a->data != nearest_value(*st))
+		{
+			rotate(st, 'a');
+		}
 		push(st, 'a');
+	}
 
 
-	nearest_value(*st);
+
+//	nearest_value(*st);
 
 	return ;
 }
