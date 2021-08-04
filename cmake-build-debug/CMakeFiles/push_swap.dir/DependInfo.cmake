@@ -4,15 +4,15 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/artem/push_swap/action/push.c" "/Users/artem/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/action/push.c.o"
-  "/Users/artem/push_swap/action/reverce_rorate.c" "/Users/artem/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/action/reverce_rorate.c.o"
-  "/Users/artem/push_swap/action/rotate.c" "/Users/artem/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/action/rotate.c.o"
-  "/Users/artem/push_swap/action/swap.c" "/Users/artem/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/action/swap.c.o"
-  "/Users/artem/push_swap/from_the_article.c" "/Users/artem/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/from_the_article.c.o"
-  "/Users/artem/push_swap/main.c" "/Users/artem/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/main.c.o"
-  "/Users/artem/push_swap/sort.c" "/Users/artem/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/sort.c.o"
-  "/Users/artem/push_swap/utils.c" "/Users/artem/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/utils.c.o"
-  "/Users/artem/push_swap/validation.c" "/Users/artem/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/validation.c.o"
+  "/Users/mshmelly/21/pushh/action/push.c" "/Users/mshmelly/21/pushh/cmake-build-debug/CMakeFiles/push_swap.dir/action/push.c.o"
+  "/Users/mshmelly/21/pushh/action/reverce_rorate.c" "/Users/mshmelly/21/pushh/cmake-build-debug/CMakeFiles/push_swap.dir/action/reverce_rorate.c.o"
+  "/Users/mshmelly/21/pushh/action/rotate.c" "/Users/mshmelly/21/pushh/cmake-build-debug/CMakeFiles/push_swap.dir/action/rotate.c.o"
+  "/Users/mshmelly/21/pushh/action/swap.c" "/Users/mshmelly/21/pushh/cmake-build-debug/CMakeFiles/push_swap.dir/action/swap.c.o"
+  "/Users/mshmelly/21/pushh/from_the_article.c" "/Users/mshmelly/21/pushh/cmake-build-debug/CMakeFiles/push_swap.dir/from_the_article.c.o"
+  "/Users/mshmelly/21/pushh/main.c" "/Users/mshmelly/21/pushh/cmake-build-debug/CMakeFiles/push_swap.dir/main.c.o"
+  "/Users/mshmelly/21/pushh/sort.c" "/Users/mshmelly/21/pushh/cmake-build-debug/CMakeFiles/push_swap.dir/sort.c.o"
+  "/Users/mshmelly/21/pushh/utils.c" "/Users/mshmelly/21/pushh/cmake-build-debug/CMakeFiles/push_swap.dir/utils.c.o"
+  "/Users/mshmelly/21/pushh/validation.c" "/Users/mshmelly/21/pushh/cmake-build-debug/CMakeFiles/push_swap.dir/validation.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

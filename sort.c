@@ -6,92 +6,65 @@ void	sort_two_elem(t_stack *stack)
 		swap(stack, 'a');
 }
 
-void	sort_three_elem(t_stack *stack, char name)
+void	sort_three_elem(t_stack *s, char name)
 {
 	if (name == 'a')
 	{
-		if ((stack->a->data > stack->a->next->data && stack->a->data < stack->a->next->next->data)
-			|| (stack->a->data > stack->a->next->data && stack->a->data > stack->a->next->next->data &&
-				stack->a->next->data > stack->a->next->next->data)
-			|| (stack->a->data < stack->a->next->data && stack->a->data < stack->a->next->next->data &&
-				stack->a->next->data > stack->a->next->next->data))
-			swap(stack, 'a');
-		if (stack->a->next->next->data < stack->a->data && stack->a->data < stack->a->next->data)
-			reverse_rotate(stack, 'a');
-		if (stack->a->data > stack->a->next->data && stack->a->next->data < stack->a->next->next->data)
-			rotate(stack, 'a');
+		if ((s->a->data > s->a->next->data && s->a->data < s->a->next->next->data)
+			|| (s->a->data > s->a->next->data && s->a->data > s->a->next->next->data &&
+				s->a->next->data > s->a->next->next->data)
+			|| (s->a->data < s->a->next->data && s->a->data < s->a->next->next->data &&
+				s->a->next->data > s->a->next->next->data))
+			swap(s, 'a');
+		if (s->a->next->next->data < s->a->data && s->a->data < s->a->next->data)
+			reverse_rotate(s, 'a');
+		if (s->a->data > s->a->next->data && s->a->next->data < s->a->next->next->data)
+			rotate(s, 'a');
 	}
 	else if (name == 'b')
 	{
-		if ((stack->b->data > stack->b->next->data && stack->b->data < stack->b->next->next->data)
-			|| (stack->b->data > stack->b->next->data && stack->b->data > stack->b->next->next->data &&
-				stack->b->next->data > stack->b->next->next->data)
-			|| (stack->b->data < stack->b->next->data && stack->b->data < stack->b->next->next->data &&
-				stack->b->next->data > stack->b->next->next->data))
-			swap(stack, 'b');
-		if (stack->b->next->next->data < stack->b->data && stack->b->data < stack->b->next->data)
-			reverse_rotate(stack, 'b');
-		if (stack->b->data > stack->b->next->data && stack->b->next->data < stack->b->next->next->data)
-			rotate(stack, 'b');
+		if ((s->b->data > s->b->next->data && s->b->data < s->b->next->next->data)
+			|| (s->b->data > s->b->next->data && s->b->data > s->b->next->next->data &&
+				s->b->next->data > s->b->next->next->data)
+			|| (s->b->data < s->b->next->data && s->b->data < s->b->next->next->data &&
+				s->b->next->data > s->b->next->next->data))
+			swap(s, 'b');
+		if (s->b->next->next->data < s->b->data && s->b->data < s->b->next->data)
+			reverse_rotate(s, 'b');
+		if (s->b->data > s->b->next->data && s->b->next->data < s->b->next->next->data)
+			rotate(s, 'b');
 	}
 	return ;
 }
 
-int	ft_mod(int i)
-{
-	if (i < 0)
-		return (i * -1);
-	return (i);
-}
-
-
-
 int	nearest_value(t_stack *stack)
 {
-    t_list *tmp = stack->a;
-    int found;
-    int found_index = 0;
-    int index = 0;
+	t_list	*tmp = stack->a;
+	int	found;
+	int	found_index;
+	int	index;
 
-    found = tmp->data; //
+	index = 0;
+	found_index = 0;
+	found = tmp->data;
 	while (tmp)
 	{
-        if (found > tmp->data && stack->b->data > found) {
-            found = tmp->data;
-            found_index = index;
-        }
-        if (tmp->data > stack->b->data && (found < stack->b->data || tmp->data < found))
-        {
-            found = tmp->data;
-            found_index = index;
-        }
-        index++;
+		if (found > tmp->data && found < stack->b->data)
+		{
+			found = tmp->data;
+			found_index = index;
+		}
+		if (tmp->data > stack->b->data && (found < stack->b->data || found > tmp->data))
+		{
+			found = tmp->data;
+			found_index = index;
+		}
+		index++;
 		tmp = tmp->next;
 	}
-//	printf("found %d\n", found_index);
 	return (found_index);
 }
 
-//t_list	*nearest_value(t_stack stack)
-//{
-//	int diff_const;
-//	int diff_tmp;
-//	t_list *tmp;
-//	diff_const = 2147483647;
-//	while (stack.a)
-//	{
-//		if (diff_tmp < 0)
-//			diff_tmp = -diff_tmp;
-//		diff_tmp = stack.a->data - stack.b->data;
-//		if (diff_const > diff_tmp)
-//		{
-//			diff_const = diff_tmp;
-//		}
-//		stack.a = stack.a->next;
-//	}
-//	printf("found %d\n", diff_const);
-//	printf("data %d\n", tmp->data);
-//}
 
 void	sort_main(t_stack *st)
 {
@@ -108,14 +81,17 @@ void	sort_main(t_stack *st)
 	{
 		while (nearest_value(st))
 		{
-			rotate(st, 'a');
+			if (nearest_value(st) < (ft_lstsize(st->a)/2))
+				rotate(st, 'a');
+			else
+				reverse_rotate(st, 'a');
 		}
 		push(st, 'a');
 	}
-    while (check_sort(st->a))
-    {
-        rotate(st, 'a');
-    }
+	while (check_sort(st->a))
+	{
+		rotate(st, 'a');
+	}
 
 
 

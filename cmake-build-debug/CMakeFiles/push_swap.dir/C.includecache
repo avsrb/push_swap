@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/artem/push_swap/libft/get_next_line.h
+/Users/mshmelly/21/pushh/libft/get_next_line.h
 stdio.h
 -
 stdlib.h
@@ -16,7 +16,7 @@ fcntl.h
 unistd.h
 -
 
-/Users/artem/push_swap/libft/libft.h
+/Users/mshmelly/21/pushh/libft/libft.h
 stddef.h
 -
 stdlib.h
@@ -24,15 +24,11 @@ stdlib.h
 unistd.h
 -
 get_next_line.h
-/Users/artem/push_swap/libft/get_next_line.h
+/Users/mshmelly/21/pushh/libft/get_next_line.h
 
-/Users/artem/push_swap/main.c
-push_swap.h
-/Users/artem/push_swap/push_swap.h
-
-/Users/artem/push_swap/push_swap.h
+/Users/mshmelly/21/pushh/push_swap.h
 ./libft/libft.h
-/Users/artem/push_swap/libft/libft.h
+/Users/mshmelly/21/pushh/libft/libft.h
 stdio.h
 -
 stdlib.h
@@ -43,4 +39,8 @@ string.h
 -
 stdbool.h
 -
+
+/Users/mshmelly/21/pushh/sort.c
+push_swap.h
+/Users/mshmelly/21/pushh/push_swap.h
 

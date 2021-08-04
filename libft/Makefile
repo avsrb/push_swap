@@ -16,8 +16,7 @@ LIST	=	ft_atoi.c			ft_bzero.c			ft_isalnum.c\
 			ft_atoi_int.c		ft_error.c\
 			ft_lstnew.c			ft_lstadd_front.c	ft_lstsize.c\
 			ft_lstlast.c		ft_lstadd_back.c	ft_lstdelone.c\
-			ft_lstclear.c		ft_lstiter.c		ft_lstmap.c\
-			ft_lstfind.c		ft_lstfindmax.c
+			ft_lstclear.c		ft_lstfind.c		ft_lstfindmax.c
 			
 HEADER	=	libft.h	get_next_line.h
 
@@ -28,11 +27,10 @@ FLAGS	=	-Wall -Wextra -Werror
 all		:	$(NAME)
 
 $(NAME)	:	$(OBJ)
-	ar rcs $(NAME) $?
-
+	@ar rcs $(NAME) $?
 
 %.o		:	%.c $(HEADER)
-	gcc $(FLAGS) -c $< -o $@
+	@gcc $(FLAGS) -c $< -o $@
 	
 clean	:
 	@rm -f $(OBJ)

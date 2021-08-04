@@ -8,106 +8,106 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/artem/push_swap/cmake-build-debug"/>
+				<Option working_dir="/Users/mshmelly/21/pushh/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/artem/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/artem/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/artem/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/artem/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/mshmelly/21/pushh/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/mshmelly/21/pushh/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/mshmelly/21/pushh/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/mshmelly/21/pushh/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/artem/push_swap/cmake-build-debug"/>
+				<Option working_dir="/Users/mshmelly/21/pushh/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/artem/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/artem/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/artem/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/artem/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/mshmelly/21/pushh/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/mshmelly/21/pushh/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/mshmelly/21/pushh/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/mshmelly/21/pushh/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/artem/push_swap/cmake-build-debug"/>
+				<Option working_dir="/Users/mshmelly/21/pushh/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/artem/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/artem/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/artem/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/artem/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/mshmelly/21/pushh/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/mshmelly/21/pushh/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/mshmelly/21/pushh/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/mshmelly/21/pushh/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="push_swap">
-				<Option output="/Users/artem/push_swap/cmake-build-debug/push_swap" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/artem/push_swap/cmake-build-debug"/>
+				<Option output="/Users/mshmelly/21/pushh/cmake-build-debug/push_swap" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/mshmelly/21/pushh/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/artem/push_swap/libft"/>
+					<Add directory="/Users/mshmelly/21/pushh/libft"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/artem/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 push_swap"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/artem/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/artem/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/artem/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/mshmelly/21/pushh/cmake-build-debug/Makefile&quot;  VERBOSE=1 push_swap"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/mshmelly/21/pushh/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/mshmelly/21/pushh/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/mshmelly/21/pushh/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="push_swap/fast">
-				<Option output="/Users/artem/push_swap/cmake-build-debug/push_swap" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/artem/push_swap/cmake-build-debug"/>
+				<Option output="/Users/mshmelly/21/pushh/cmake-build-debug/push_swap" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/mshmelly/21/pushh/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/artem/push_swap/libft"/>
+					<Add directory="/Users/mshmelly/21/pushh/libft"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/artem/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 push_swap/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/artem/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/artem/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/artem/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/mshmelly/21/pushh/cmake-build-debug/Makefile&quot;  VERBOSE=1 push_swap/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/mshmelly/21/pushh/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/mshmelly/21/pushh/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/mshmelly/21/pushh/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/artem/push_swap/action/push.c">
+		<Unit filename="/Users/mshmelly/21/pushh/action/push.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/artem/push_swap/action/reverce_rorate.c">
+		<Unit filename="/Users/mshmelly/21/pushh/action/reverce_rorate.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/artem/push_swap/action/rotate.c">
+		<Unit filename="/Users/mshmelly/21/pushh/action/rotate.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/artem/push_swap/action/swap.c">
+		<Unit filename="/Users/mshmelly/21/pushh/action/swap.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/artem/push_swap/from_the_article.c">
+		<Unit filename="/Users/mshmelly/21/pushh/from_the_article.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/artem/push_swap/main.c">
+		<Unit filename="/Users/mshmelly/21/pushh/main.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/artem/push_swap/sort.c">
+		<Unit filename="/Users/mshmelly/21/pushh/sort.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/artem/push_swap/utils.c">
+		<Unit filename="/Users/mshmelly/21/pushh/utils.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/artem/push_swap/validation.c">
+		<Unit filename="/Users/mshmelly/21/pushh/validation.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/artem/push_swap/CMakeLists.txt">
+		<Unit filename="/Users/mshmelly/21/pushh/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
