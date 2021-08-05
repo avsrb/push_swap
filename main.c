@@ -60,7 +60,6 @@ int	main(int argc, char **argv)
 //			stack.a = stack.a->next;
 //		if (stack.b)
 //			stack.b = stack.b->next;
-//
 //	}
 	return(0);
 }

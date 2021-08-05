@@ -49,12 +49,8 @@ int	nearest_value(t_stack *stack)
 	found = tmp->data;
 	while (tmp)
 	{
-		if (found > tmp->data && found < stack->b->data)
-		{
-			found = tmp->data;
-			found_index = index;
-		}
-		if (tmp->data > stack->b->data && (found < stack->b->data || found > tmp->data))
+		if ((found > tmp->data && found < stack->b->data)
+			|| (tmp->data > stack->b->data && (found < stack->b->data || found > tmp->data)))
 		{
 			found = tmp->data;
 			found_index = index;
@@ -65,13 +61,12 @@ int	nearest_value(t_stack *stack)
 	return (found_index);
 }
 
-
 void	sort_main(t_stack *st)
 {
 	int	i;
+
 	i = 3;
-	int	len = st->size;
-	while (i++ < len)
+	while (i++ < st->len_a)
 	{
 //		if (st->a->data < st->max_a && )
 		push(st, 'b');
@@ -90,38 +85,23 @@ void	sort_main(t_stack *st)
 	}
 	while (check_sort(st->a))
 	{
-		rotate(st, 'a');
+		if (st->a->data > (ft_lstsize(st->a)/2))
+			rotate(st, 'a');
+		else
+			reverse_rotate(st, 'a');
 	}
-
-
-
-//	nearest_value(st);
-
 	return ;
 }
 
-
-
-
-
 int		sort(t_stack *stack)
 {
-	stack->size = ft_lstsize(stack->a);
-	if (stack->size == 2)
+	stack->len_a = ft_lstsize(stack->a);
+	if (stack->len_a == 2)
 		sort_two_elem(stack);
-	if (stack->size == 3)
+	if (stack->len_a == 3)
 		sort_three_elem(stack, 'a');
-	if (stack->size > 5)
+	if (stack->len_a > 4)
 		sort_main(stack);
 
 	return (0);
 }
-
-//int		swap(t_stack *stack, char name)
-//{
-//	if (name == 'a')
-//	{
-//
-//
-//	}
-//}
