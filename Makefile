@@ -3,21 +3,16 @@ NAME	= push_swap
 LIST	= main.c utils.c validation.c from_the_article.c sort.c\
 		./action/swap.c ./action/rotate.c ./action/reverce_rorate.c ./action/push.c
 
-HEADER	= push_swap.c
+HEADER	= ./push_swap.h
 
-GCC		=	gcc -Wall -Wextra -Werror -O2
-
-OBJ		=	$(@patsubst %.c, %.o, $(LIST))
+GCC		=	gcc -Wall -Wextra -Werror
 
 all		: $(NAME)
 
-$(NAME)	: $(OBJ) ./push_swap.h
+$(NAME)	: $(LIST) $(HEADER)
 	@$(MAKE) -C ./libft
 	@$(GCC) $(LIST) ./libft/libft.a -o $(NAME)
-	@echo Done!
-
-%.o		:	%.c $(HEADER)
-	$(GCC) -c $< -o $@
+	@echo ebal shatal!
 
 clean	:
 	@rm -f $(OBJ)

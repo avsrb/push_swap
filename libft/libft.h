@@ -56,11 +56,12 @@ t_list	*ft_lstlast(t_list *lst);
 void	ft_lstadd_back(t_list **lst, t_list *new);
 void	ft_lstdelone(t_list *lst);
 void	ft_lstclear(t_list **lst);
-int	ft_lstfindmax(t_list *lst);
+int		ft_lstfindmax(t_list *lst);
 char	*ft_strnew(size_t size);
 char	*ft_strcpy(char *dest, char *src);
 void	ft_strclr(char *s);
-void	ft_lstfind(t_list *lst, int f);
+void	ft_lstfind_error(t_list *lst, int f);
+int		ft_lstfind(t_list *lst, int f);
 void	ft_error(char *s);
 
 #endif

@@ -16,7 +16,7 @@ void 	from_array(int argc, char **argv, t_list **a)
 	while (argv[i])
 	{
 		nbr = ft_atoi_int(argv[i]);
-		ft_lstfind(*a, nbr);
+		ft_lstfind_error(*a, nbr);
 		ft_lstadd_back(a, ft_lstnew(nbr));
 		i++;
 	}
@@ -46,20 +46,20 @@ int	main(int argc, char **argv)
 	if (!check_sort(stack.a))
 		return (0);
 	sort(&stack);
-//	while (stack.a || stack.b)
-//	{
-//		printf("data_a ");
-//		if (stack.a)
-//			printf("%d", stack.a->data);
-//		printf("   ");
-//		printf("data_b ");
-//		if (stack.b)
-//			printf("%d", stack.b->data);
-//		printf("\n");
-//		if(stack.a)
-//			stack.a = stack.a->next;
-//		if (stack.b)
-//			stack.b = stack.b->next;
-//	}
+	while (stack.a || stack.b)
+	{
+		printf("data_a ");
+		if (stack.a)
+			printf("%d", stack.a->data);
+		printf("   ");
+		printf("data_b ");
+		if (stack.b)
+			printf("%d", stack.b->data);
+		printf("\n");
+		if(stack.a)
+			stack.a = stack.a->next;
+		if (stack.b)
+			stack.b = stack.b->next;
+	}
 	return(0);
 }

@@ -61,6 +61,35 @@ int	nearest_value(t_stack *stack)
 	return (found_index);
 }
 
+int	nearest_value_in_b(t_stack *stack)
+{
+	t_list	*tmp = stack->b;
+	int	found;
+	int	found_index;
+	int	index;
+
+	index = 0;
+	found_index = 0;
+	found = tmp->data;
+	while (tmp)
+	{
+		if ((found > tmp->data && found < stack->a->data)
+			|| (tmp->data > stack->a->data && (found < stack->a->data || found > tmp->data)))
+		{
+			found = tmp->data;
+			found_index = index;
+		}
+		index++;
+		tmp = tmp->next;
+	}
+	return (found_index);
+}
+
+int		find_best_action(t_stack *st)
+{
+	return (0);
+}
+
 void	sort_main(t_stack *st)
 {
 	int	i;
@@ -68,7 +97,6 @@ void	sort_main(t_stack *st)
 	i = 3;
 	while (i++ < st->len_a)
 	{
-//		if (st->a->data < st->max_a && )
 		push(st, 'b');
 	}
 	sort_three_elem(st, 'a');
@@ -76,16 +104,40 @@ void	sort_main(t_stack *st)
 	{
 		while (nearest_value(st))
 		{
-			if (nearest_value(st) < (ft_lstsize(st->a)/2))
+			if (ft_lstsize(st->a)/2 > nearest_value(st))// && nearest_value(st) < nearest_value_in_b(st))
 				rotate(st, 'a');
 			else
 				reverse_rotate(st, 'a');
 		}
+		find_best_action(st);
+//		if (nearest_value(st) > nearest_value_in_b(st))
+//		{
+//			while (nearest_value_in_b(st))
+//			{
+//				if (nearest_value_in_b(st) < ft_lstsize(st->b)/2)
+//					rotate(st, 'b');
+//				else
+//					reverse_rotate(st, 'b');
+//			}
+//		}
+//		else
+//		{
+//			while (nearest_value(st))
+//			{
+//				if (nearest_value(st) < (ft_lstsize(st->a)) / 2)
+//					rotate(st, 'a');
+//				else
+//					reverse_rotate(st, 'a');
+//			}
+//		}
 		push(st, 'a');
 	}
+
+
+
 	while (check_sort(st->a))
 	{
-		if (st->a->data > (ft_lstsize(st->a)/2))
+		if (st->a->data <= ft_lstsize(st->a))
 			rotate(st, 'a');
 		else
 			reverse_rotate(st, 'a');

@@ -1,12 +1,18 @@
 #include "libft.h"
 
-void	ft_lstfind(t_list *lst, int f)
+int		ft_lstfind(t_list *lst, int f)
 {
-	while (lst)
+	t_list	*tmp;
+	int	index;
+
+	index = 0;
+	tmp = lst;
+	while (tmp)
 	{
-		if (lst->data == f)
-			ft_error(0);
-		lst = lst->next;
+		if (tmp->data == f)
+			return (index);
+		tmp = tmp->next;
+		index++;
 	}
-	return ;
+	return (0);
 }

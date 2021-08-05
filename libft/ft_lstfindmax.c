@@ -2,14 +2,16 @@
 
 int	ft_lstfindmax(t_list *lst)
 {
+	t_list	*tmp;
+	tmp = lst;
 	int	max;
 
-	max = lst->data;
-	while (lst)
+	max = tmp->data;
+	while (tmp)
 	{
-		if (lst->data > max)
-			max = lst->data;
-		lst = lst->next;
+		if (tmp->data > max)
+			max = tmp->data;
+		tmp = tmp->next;
 	}
 	return (max);
 }
