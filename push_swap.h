@@ -7,12 +7,24 @@
 #include <unistd.h>
 #include <string.h>
 #include <stdbool.h>
+#include <limits.h>
 
+typedef struct s_moves
+{
+	int	ra;
+	int rb;
+	int	rra;
+	int rrb;
+	int	total;
+	int	mode;
+}			t_moves;
 
 typedef struct s_stack
 {
 	t_list	*a;
 	t_list	*b;
+	t_moves	moves;
+
 	int	len_a;
 	int max_a;
 }			t_stack;
@@ -28,6 +40,6 @@ void	swap(t_stack *stack, char name);
 void	rotate(t_stack *stack, char name);
 void	reverse_rotate(t_stack *stack, char name);
 void	push(t_stack *stack, char name);
-
+void	st_print(t_list *st_a, t_list *st_b);
 
 #endif

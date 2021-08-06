@@ -61,7 +61,7 @@ char	*ft_strnew(size_t size);
 char	*ft_strcpy(char *dest, char *src);
 void	ft_strclr(char *s);
 void	ft_lstfind_error(t_list *lst, int f);
-int		ft_lstfind(t_list *lst, int f);
+int		ft_lstfindindex(t_list *lst, int f);
 void	ft_error(char *s);
 
 #endif

@@ -15,18 +15,17 @@ void	rotate_action(t_list **stack)
 
 void	rotate(t_stack *stack, char name)
 {
-	if (name == 'a' && stack->a && stack->a->next)
+	if (name == 'a')
 	{
 		rotate_action(&stack->a);
 		write(1, "ra\n", 3);
 	}
-	else if (name == 'b' && stack->b && stack->b->next)
+	else if (name == 'b')
 	{
 		rotate_action(&stack->b);
 		write(1, "rb\n", 3);
 	}
-	else if (name == 's' && stack->a && stack->a->next
-		&& stack->b && stack->b->next)
+	else if (name == 's')
 	{
 		rotate_action(&stack->a);
 		rotate_action(&stack->b);

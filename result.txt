@@ -95,1102 +95,63 @@ pb
 pb
 pb
 pb
-rra
-rra
-pa
-pa
-pa
-pa
-rra
-rra
-rra
-pa
-ra
-pa
-ra
-ra
-ra
-pa
-ra
-ra
-ra
-ra
-pa
-ra
-pa
-ra
-ra
-ra
-pa
-ra
-ra
-ra
-ra
-pa
-ra
-ra
-ra
-ra
-pa
-ra
-ra
-pa
-ra
-ra
-ra
-pa
-rra
-rra
-rra
-rra
-rra
-rra
-pa
-ra
-ra
-ra
-pa
-ra
-ra
-ra
-ra
-ra
-ra
-pa
-ra
-ra
-ra
-pa
-ra
-ra
-ra
-ra
-ra
-pa
-ra
-ra
-pa
-rra
-rra
-rra
-rra
-rra
-pa
-rra
-rra
-rra
-pa
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-pa
-ra
-ra
-ra
-ra
-pa
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-pa
-ra
-ra
-ra
-pa
-ra
-ra
-ra
-ra
-ra
-ra
-pa
-ra
-ra
-ra
-ra
-ra
-ra
-pa
-ra
-pa
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-pa
-rra
-rra
-rra
-rra
-rra
-rra
-pa
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-pa
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-pa
-rra
-rra
-rra
-pa
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-pa
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-pa
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-pa
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-pa
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-pa
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-pa
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-pa
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-pa
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-pa
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-pa
-ra
-ra
-pa
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-pa
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-pa
-ra
-ra
-ra
-pa
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-pa
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-pa
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-pa
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-pa
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-pa
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-pa
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-pa
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-pa
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-pa
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-pa
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-pa
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-pa
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-pa
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-pa
-ra
-ra
-ra
-pa
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-pa
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-pa
-ra
-ra
-ra
-pa
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-pa
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-pa
-ra
-ra
-ra
-ra
-ra
-pa
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-pa
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-pa
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-pa
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-pa
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-pa
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-pa
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-pa
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-pa
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-pa
-rra
-rra
-rra
-rra
-pa
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-pa
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
 pa
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
+rrb
 pa
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
 rra
 rra
+pa
+ra
+pa
+ra
+pa
+pa
 rra
+pa
 rra
 rra
+pa
 rra
 rra
 pa
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
+rr
+rr
+rr
+pa
 ra
 pa
+rb
+rra
 rra
+pa
 rra
 rra
+pa
 rra
+pa
+rb
+rb
+pa
+rb
+rb
+rb
+pa
+rr
+ra
+ra
+pa
 rra
 rra
 rra
 rra
 pa
+rr
 ra
-ra
-ra
-ra
-ra
+pa
 ra
 ra
+pa
+rr
 ra
 ra
 ra
@@ -1198,122 +159,101 @@ ra
 ra
 ra
 pa
-pa
 ra
 ra
 ra
+pa
 ra
+pa
 ra
+pa
+rr
 ra
 ra
+pa
+rr
+rr
+pa
 ra
 ra
 ra
 ra
+pa
 ra
+pa
+rrr
+rrb
+rrb
+pa
+rrr
+rrb
+rrb
+pa
+rrb
+rrb
+rrb
+pa
 ra
 ra
+rrb
+rrb
+pa
 ra
 ra
 ra
 pa
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
+rrr
+rrr
+rrb
 pa
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
+rrb
+rrb
+rrb
 pa
-rra
-rra
+rrr
+rrr
 rra
 pa
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
+rrr
+rrr
 rra
 rra
 rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
+pa
+rrr
+rrr
+rrb
+pa
+rb
 rra
 rra
 rra
 pa
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
+rrr
+rrb
+pa
+rrr
+rrr
+rrr
+pa
+rrr
+rrb
+rrb
+pa
+rb
+rb
+rb
+rb
+rb
+rb
+pa
+rr
+rr
+rr
 ra
+pa
+rra
+pa
 ra
 ra
 ra
@@ -1322,136 +262,265 @@ ra
 ra
 ra
 pa
-ra
-ra
+rr
+rb
+rb
+rb
+rb
+pa
+rr
+rr
+rr
+rr
+rr
+rr
+rr
 ra
 ra
+pa
+rr
+rr
+rr
+rr
+rr
+rb
+rb
+pa
+rr
+pa
+rr
+rr
+rr
 ra
 ra
 ra
+pa
+rr
+rr
+rr
+rr
 ra
 ra
+pa
 ra
+pa
+rr
+rr
+rr
+rr
+rr
+rb
+pa
 ra
 ra
 ra
+pa
+rr
+rr
+rr
 ra
+pa
+pa
+rb
+rra
+rra
+rra
+pa
+rr
 ra
 ra
+pa
 ra
 ra
 ra
 ra
 ra
 ra
+rrb
+rrb
+rrb
+pa
+rr
+rr
+rr
+rr
 ra
+pa
+rb
+rb
+pa
 ra
 ra
 ra
 ra
+rrb
+pa
+rr
+rr
+rr
+rb
+rb
+pa
+rr
+rr
+rr
+rr
+rr
+rr
+rr
+pa
+rb
+rb
+rb
+rra
+pa
+rr
+rr
+rr
+rr
 ra
 ra
 ra
+pa
 ra
 ra
 ra
+pa
+rr
 ra
 ra
 ra
 ra
 ra
+pa
+rr
+rr
+rr
+rb
+rb
+pa
+rra
+pa
+rra
+rra
+rra
+rra
 pa
+rr
+rr
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+pa
+rr
+rr
 ra
 ra
 ra
 ra
 ra
 ra
+pa
+rr
+rr
+rr
 ra
+pa
+rr
 ra
+pa
 ra
 ra
 ra
 ra
 ra
 ra
+pa
+rr
+rr
 ra
 ra
 pa
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
+rb
 rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
+pa
+rr
+rr
+rr
+rr
+pa
+pa
+pa
+rb
 rra
 rra
 rra
 rra
 pa
-ra
-ra
+rr
+rr
+rr
+rr
+rr
+rr
+pa
+rr
+rr
+rr
+rr
+pa
+rrr
+rrb
+rrb
+rrb
+rrb
+pa
 ra
 ra
 ra
 ra
 ra
 ra
+pa
+rb
+pa
 ra
 ra
+pa
+rr
+rr
+rr
 ra
 ra
 ra
 ra
 ra
+pa
+rb
+rb
+pa
 ra
 ra
+pa
+rr
+rr
 ra
 ra
 ra
+pa
 ra
+pa
 ra
 ra
 pa
+rr
 ra
 ra
 ra
@@ -1462,7 +531,7 @@ ra
 ra
 ra
 ra
-ra
+pa
 ra
 ra
 ra
@@ -1484,6 +553,7 @@ ra
 ra
 ra
 ra
+pa
 ra
 ra
 ra
@@ -1503,200 +573,3 @@ ra
 ra
 ra
 ra
-find 92
-find 92
-find 92
-find 92
-find 92
-find 92
-find 92
-find 92
-find 92
-find 92
-find 92
-find 99
-find 99
-find 99
-find 99
-find 99
-find 99
-find 99
-find 99
-find 99
-find 99
-find 99
-find 99
-find 99
-find 99
-find 99
-find 99
-find 99
-find 99
-find 99
-find 99
-find 99
-find 99
-find 99
-find 99
-find 99
-find 99
-find 99
-find 100
-find 100
-find 100
-find 100
-find 100
-find 100
-find 100
-find 100
-find 100
-find 100
-find 100
-find 100
-find 100
-find 100
-find 100
-find 100
-find 100
-find 100
-find 100
-find 100
-find 100
-find 100
-find 100
-find 100
-find 100
-find 100
-find 100
-find 100
-find 100
-find 100
-find 100
-find 100
-find 100
-find 100
-find 100
-find 100
-find 100
-find 100
-find 100
-find 100
-find 100
-find 100
-find 100
-find 100
-find 100
-find 100
-find 100
-find 100
-find 100
-find 100
-find 100
-find 100
-find 100
-find 100
-find 100
-find 100
-find 100
-find 100
-find 100
-data_a 1   data_b 
-data_a 2   data_b 
-data_a 3   data_b 
-data_a 4   data_b 
-data_a 5   data_b 
-data_a 6   data_b 
-data_a 7   data_b 
-data_a 8   data_b 
-data_a 9   data_b 
-data_a 10   data_b 
-data_a 11   data_b 
-data_a 12   data_b 
-data_a 13   data_b 
-data_a 14   data_b 
-data_a 15   data_b 
-data_a 16   data_b 
-data_a 17   data_b 
-data_a 18   data_b 
-data_a 19   data_b 
-data_a 20   data_b 
-data_a 21   data_b 
-data_a 22   data_b 
-data_a 23   data_b 
-data_a 24   data_b 
-data_a 25   data_b 
-data_a 26   data_b 
-data_a 27   data_b 
-data_a 28   data_b 
-data_a 29   data_b 
-data_a 30   data_b 
-data_a 31   data_b 
-data_a 32   data_b 
-data_a 33   data_b 
-data_a 34   data_b 
-data_a 35   data_b 
-data_a 36   data_b 
-data_a 37   data_b 
-data_a 38   data_b 
-data_a 39   data_b 
-data_a 40   data_b 
-data_a 41   data_b 
-data_a 42   data_b 
-data_a 43   data_b 
-data_a 44   data_b 
-data_a 45   data_b 
-data_a 46   data_b 
-data_a 47   data_b 
-data_a 48   data_b 
-data_a 49   data_b 
-data_a 50   data_b 
-data_a 51   data_b 
-data_a 52   data_b 
-data_a 53   data_b 
-data_a 54   data_b 
-data_a 55   data_b 
-data_a 56   data_b 
-data_a 57   data_b 
-data_a 58   data_b 
-data_a 59   data_b 
-data_a 60   data_b 
-data_a 61   data_b 
-data_a 62   data_b 
-data_a 63   data_b 
-data_a 64   data_b 
-data_a 65   data_b 
-data_a 66   data_b 
-data_a 67   data_b 
-data_a 68   data_b 
-data_a 69   data_b 
-data_a 70   data_b 
-data_a 71   data_b 
-data_a 72   data_b 
-data_a 73   data_b 
-data_a 74   data_b 
-data_a 75   data_b 
-data_a 76   data_b 
-data_a 77   data_b 
-data_a 78   data_b 
-data_a 79   data_b 
-data_a 80   data_b 
-data_a 81   data_b 
-data_a 82   data_b 
-data_a 83   data_b 
-data_a 84   data_b 
-data_a 85   data_b 
-data_a 86   data_b 
-data_a 87   data_b 
-data_a 88   data_b 
-data_a 89   data_b 
-data_a 90   data_b 
-data_a 91   data_b 
-data_a 92   data_b 
-data_a 93   data_b 
-data_a 94   data_b 
-data_a 95   data_b 
-data_a 96   data_b 
-data_a 97   data_b 
-data_a 98   data_b 
-data_a 99   data_b 
-data_a 100   data_b 

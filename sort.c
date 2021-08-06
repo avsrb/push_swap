@@ -61,9 +61,9 @@ int	nearest_value(t_stack *stack)
 	return (found_index);
 }
 
-int	nearest_value_in_b(t_stack *stack)
+int	nearest_value_optional(t_list *st_a, t_list *st_b)
 {
-	t_list	*tmp = stack->b;
+	t_list	*tmp = st_a;
 	int	found;
 	int	found_index;
 	int	index;
@@ -73,8 +73,8 @@ int	nearest_value_in_b(t_stack *stack)
 	found = tmp->data;
 	while (tmp)
 	{
-		if ((found > tmp->data && found < stack->a->data)
-			|| (tmp->data > stack->a->data && (found < stack->a->data || found > tmp->data)))
+		if ((found > tmp->data && found < st_b->data)
+			|| (tmp->data > st_b->data && (st_b->data > found || tmp->data < found)))
 		{
 			found = tmp->data;
 			found_index = index;
@@ -85,9 +85,72 @@ int	nearest_value_in_b(t_stack *stack)
 	return (found_index);
 }
 
-int		find_best_action(t_stack *st)
+int		ft_max(int a, int b)
 {
-	return (0);
+	if (a > b)
+		return (a);
+	return (b);
+}
+
+void	ft_choise_best_way(t_moves *tmp_moves)
+{
+	tmp_moves->total = INT_MAX;
+
+	if (ft_max(tmp_moves->ra, tmp_moves->rb) < tmp_moves->total) //
+	{
+		tmp_moves->total = ft_max(tmp_moves->ra, tmp_moves->rb);
+		tmp_moves->mode = 1;
+	}
+	if (ft_max(tmp_moves->rra, tmp_moves->rrb) < tmp_moves->total) //
+	{
+		tmp_moves->total = ft_max(tmp_moves->rra, tmp_moves->rrb);
+		tmp_moves->mode = 2;
+	}
+	if (tmp_moves->ra + tmp_moves->rrb < tmp_moves->total) //
+	{
+		tmp_moves->total = tmp_moves->ra + tmp_moves->rrb;
+		tmp_moves->mode = 3;
+	}
+	if (tmp_moves->rra + tmp_moves->rb < tmp_moves->total) //
+	{
+		tmp_moves->total = tmp_moves->rra + tmp_moves->rb;
+		tmp_moves->mode = 4;
+	}
+}
+
+void	find_best_action(t_stack *st)
+{
+	t_list 	*tmp_b;
+	t_list 	*tmp_b_start;
+	t_moves	tmp_moves;
+
+	int index = 0;
+	st->moves.total = INT_MAX;
+
+	tmp_b = st->b;
+	tmp_b_start = st->b;
+
+	//st_print(st->a, tmp_b_start);
+	while (tmp_b)
+	{
+		tmp_moves.ra = nearest_value_optional(st->a, tmp_b);
+		tmp_moves.rb = index;
+		tmp_moves.rra = ft_lstsize(st->a) - tmp_moves.ra;
+		tmp_moves.rrb = ft_lstsize(tmp_b_start) - tmp_moves.rb;
+		ft_choise_best_way(&tmp_moves);
+		//printf("\tstep\t%d\tindex \t%d\n", step, index);
+		if (tmp_moves.total < st->moves.total)
+		{
+			st->moves.ra = tmp_moves.ra;
+			st->moves.rb = tmp_moves.rb;
+			st->moves.rra = tmp_moves.rra;
+			st->moves.rrb = tmp_moves.rrb;
+			st->moves.total = tmp_moves.total;
+			st->moves.mode = tmp_moves.mode;
+		}
+		index++;
+		tmp_b = tmp_b->next;
+	}
 }
 
 void	sort_main(t_stack *st)
@@ -100,40 +163,76 @@ void	sort_main(t_stack *st)
 		push(st, 'b');
 	}
 	sort_three_elem(st, 'a');
+
 	while (st->b)
 	{
-		while (nearest_value(st))
-		{
-			if (ft_lstsize(st->a)/2 > nearest_value(st))// && nearest_value(st) < nearest_value_in_b(st))
-				rotate(st, 'a');
-			else
-				reverse_rotate(st, 'a');
-		}
 		find_best_action(st);
-//		if (nearest_value(st) > nearest_value_in_b(st))
-//		{
-//			while (nearest_value_in_b(st))
-//			{
-//				if (nearest_value_in_b(st) < ft_lstsize(st->b)/2)
-//					rotate(st, 'b');
-//				else
-//					reverse_rotate(st, 'b');
-//			}
-//		}
-//		else
-//		{
-//			while (nearest_value(st))
-//			{
-//				if (nearest_value(st) < (ft_lstsize(st->a)) / 2)
-//					rotate(st, 'a');
-//				else
-//					reverse_rotate(st, 'a');
-//			}
-//		}
+		if (st->moves.mode == 1)
+		{
+			while (st->moves.ra && st->moves.rb) // > 0
+			{
+				rotate(st, 's');
+				st->moves.ra--;
+				st->moves.rb--;
+			}
+			while (st->moves.ra) // > 0
+			{
+				rotate(st, 'a');
+				st->moves.ra--;
+			}
+			while (st->moves.rb) // > 0
+			{
+				rotate(st, 'b');
+				st->moves.rb--;
+			}
+		}
+		if (st->moves.mode == 2)
+		{
+			while (st->moves.rra && st->moves.rrb) // > 0
+			{
+				reverse_rotate(st, 's');
+				st->moves.rra--;
+				st->moves.rrb--;
+			}
+			while (st->moves.rra) // > 0
+			{
+				reverse_rotate(st, 'a');
+				st->moves.rra--;
+			}
+			while (st->moves.rrb) // > 0
+			{
+				reverse_rotate(st, 'b');
+				st->moves.rrb--;
+			}
+		}
+		if (st->moves.mode == 3)
+		{
+			while (st->moves.ra) // > 0
+			{
+				rotate(st, 'a');
+				st->moves.ra--;
+			}
+			while (st->moves.rrb) // > 0
+			{
+				reverse_rotate(st, 'b');
+				st->moves.rrb--;
+			}
+		}
+		if (st->moves.mode == 4)
+		{
+			while (st->moves.rb) // > 0
+			{
+				rotate(st, 'b');
+				st->moves.rb--;
+			}
+			while (st->moves.rra) // > 0
+			{
+				reverse_rotate(st, 'a');
+				st->moves.rra--;
+			}
+		}
 		push(st, 'a');
 	}
-
-
 
 	while (check_sort(st->a))
 	{

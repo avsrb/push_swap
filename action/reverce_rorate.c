@@ -18,21 +18,21 @@ void	reverse_rotate_action(t_list **stack)
 
 void	reverse_rotate(t_stack *stack, char name)
 {
-	if (name == 'a' && stack->a && stack->a->next)
+	if (name == 'a')
 	{
 		reverse_rotate_action(&stack->a);
 		write(1, "rra\n", 4);
 	}
-	else if (name == 'b' && stack->b && stack->b->next)
+	else if (name == 'b')
 	{
 		reverse_rotate_action(&stack->b);
 		write(1, "rrb\n", 4);
 	}
-	else if (name == 's' && stack->a && stack->a->next
-		&& stack->b && stack->b->next)
+	else if (name == 's')
 	{
+
 		reverse_rotate_action(&stack->a);
 		reverse_rotate_action(&stack->b);
-		write(1, "rrr\n", 3);
+		write(1, "rrr\n", 4);
 	}
 }
