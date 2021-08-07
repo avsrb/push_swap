@@ -21,8 +21,6 @@ CMakeFiles/push_swap.dir/action/swap.c.o: ../libft/get_next_line.h
 CMakeFiles/push_swap.dir/action/swap.c.o: ../libft/libft.h
 CMakeFiles/push_swap.dir/action/swap.c.o: ../push_swap.h
 
-CMakeFiles/push_swap.dir/from_the_article.c.o: ../from_the_article.c
-
 CMakeFiles/push_swap.dir/main.c.o: ../libft/get_next_line.h
 CMakeFiles/push_swap.dir/main.c.o: ../libft/libft.h
 CMakeFiles/push_swap.dir/main.c.o: ../main.c

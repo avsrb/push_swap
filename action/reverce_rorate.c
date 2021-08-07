@@ -30,9 +30,28 @@ void	reverse_rotate(t_stack *stack, char name)
 	}
 	else if (name == 's')
 	{
-
 		reverse_rotate_action(&stack->a);
 		reverse_rotate_action(&stack->b);
 		write(1, "rrr\n", 4);
+	}
+}
+
+void	moves_reverse_rotate(t_stack *st)
+{
+	while (st->moves.rra && st->moves.rrb)
+	{
+		reverse_rotate(st, 's');
+		st->moves.rra--;
+		st->moves.rrb--;
+	}
+	while (st->moves.rra)
+	{
+		reverse_rotate(st, 'a');
+		st->moves.rra--;
+	}
+	while (st->moves.rrb)
+	{
+		reverse_rotate(st, 'b');
+		st->moves.rrb--;
 	}
 }

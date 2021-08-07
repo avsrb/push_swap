@@ -3,9 +3,9 @@
 int	ft_lstfindmax(t_list *lst)
 {
 	t_list	*tmp;
-	tmp = lst;
-	int	max;
+	int		max;
 
+	tmp = lst;
 	max = tmp->data;
 	while (tmp)
 	{

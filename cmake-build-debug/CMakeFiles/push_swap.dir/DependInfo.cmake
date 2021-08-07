@@ -8,7 +8,6 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/mshmelly/21/1push/action/reverce_rorate.c" "/Users/mshmelly/21/1push/cmake-build-debug/CMakeFiles/push_swap.dir/action/reverce_rorate.c.o"
   "/Users/mshmelly/21/1push/action/rotate.c" "/Users/mshmelly/21/1push/cmake-build-debug/CMakeFiles/push_swap.dir/action/rotate.c.o"
   "/Users/mshmelly/21/1push/action/swap.c" "/Users/mshmelly/21/1push/cmake-build-debug/CMakeFiles/push_swap.dir/action/swap.c.o"
-  "/Users/mshmelly/21/1push/from_the_article.c" "/Users/mshmelly/21/1push/cmake-build-debug/CMakeFiles/push_swap.dir/from_the_article.c.o"
   "/Users/mshmelly/21/1push/main.c" "/Users/mshmelly/21/1push/cmake-build-debug/CMakeFiles/push_swap.dir/main.c.o"
   "/Users/mshmelly/21/1push/sort.c" "/Users/mshmelly/21/1push/cmake-build-debug/CMakeFiles/push_swap.dir/sort.c.o"
   "/Users/mshmelly/21/1push/utils.c" "/Users/mshmelly/21/1push/cmake-build-debug/CMakeFiles/push_swap.dir/utils.c.o"

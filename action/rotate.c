@@ -32,3 +32,51 @@ void	rotate(t_stack *stack, char name)
 		write(1, "rr\n", 3);
 	}
 }
+
+void	moves_rotate(t_stack *st)
+{
+	while (st->moves.ra && st->moves.rb)
+	{
+		rotate(st, 's');
+		st->moves.ra--;
+		st->moves.rb--;
+	}
+	while (st->moves.ra)
+	{
+		rotate(st, 'a');
+		st->moves.ra--;
+	}
+	while (st->moves.rb)
+	{
+		rotate(st, 'b');
+		st->moves.rb--;
+	}
+}
+
+void	moves_ra_and_rrb(t_stack *st)
+{
+	while (st->moves.ra)
+	{
+		rotate(st, 'a');
+		st->moves.ra--;
+	}
+	while (st->moves.rrb)
+	{
+		reverse_rotate(st, 'b');
+		st->moves.rrb--;
+	}
+}
+
+void	moves_rb_and_rra(t_stack *st)
+{
+	while (st->moves.rb)
+	{
+		rotate(st, 'b');
+		st->moves.rb--;
+	}
+	while (st->moves.rra)
+	{
+		reverse_rotate(st, 'a');
+		st->moves.rra--;
+	}
+}

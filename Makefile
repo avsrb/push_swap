@@ -1,6 +1,6 @@
 NAME	= push_swap
 
-LIST	= main.c utils.c validation.c from_the_article.c sort.c\
+LIST	= main.c utils.c validation.c sort.c\
 		./action/swap.c ./action/rotate.c ./action/reverce_rorate.c ./action/push.c
 
 HEADER	= ./push_swap.h
@@ -12,7 +12,7 @@ all		: $(NAME)
 $(NAME)	: $(LIST) $(HEADER)
 	@$(MAKE) -C ./libft
 	@$(GCC) $(LIST) ./libft/libft.a -o $(NAME)
-	@echo ebal shatal!
+	@echo Сould you please give me the numbers to sort?
 
 clean	:
 	@rm -f $(OBJ)

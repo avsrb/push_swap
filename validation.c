@@ -1,8 +1,22 @@
 #include "push_swap.h"
 
-int skipping(char *str)
+int	check_sort(t_list *list)
 {
-	int i;
+	if (!list || !list->next)
+		return (0);
+	while (list->next)
+	{
+		if (list->data < list->next->data)
+			list = list->next;
+		else
+			return (1);
+	}
+	return (0);
+}
+
+int	skipping(char *str)
+{
+	int	i;
 
 	i = 0;
 	if (!str[i])
@@ -27,7 +41,7 @@ int	validation(int argc, char **argv)
 		ft_error("Not enough arguments\n");
 	while (*(++argv))
 	{
-		return(skipping(*argv));
+		return (skipping(*argv));
 	}
 	return (0);
 }

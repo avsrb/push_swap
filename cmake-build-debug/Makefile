@@ -250,33 +250,6 @@ action/swap.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/action/swap.c.s
 .PHONY : action/swap.c.s
 
-from_the_article.o: from_the_article.c.o
-
-.PHONY : from_the_article.o
-
-# target to build an object file
-from_the_article.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/from_the_article.c.o
-.PHONY : from_the_article.c.o
-
-from_the_article.i: from_the_article.c.i
-
-.PHONY : from_the_article.i
-
-# target to preprocess a source file
-from_the_article.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/from_the_article.c.i
-.PHONY : from_the_article.c.i
-
-from_the_article.s: from_the_article.c.s
-
-.PHONY : from_the_article.s
-
-# target to generate assembly for a file
-from_the_article.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/from_the_article.c.s
-.PHONY : from_the_article.c.s
-
 main.o: main.c.o
 
 .PHONY : main.o
@@ -406,9 +379,6 @@ help:
 	@echo "... action/swap.o"
 	@echo "... action/swap.i"
 	@echo "... action/swap.s"
-	@echo "... from_the_article.o"
-	@echo "... from_the_article.i"
-	@echo "... from_the_article.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

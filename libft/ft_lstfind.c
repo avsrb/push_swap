@@ -1,9 +1,9 @@
 #include "libft.h"
 
-int		ft_lstfindindex(t_list *lst, int f)
+int	ft_lstfindindex(t_list *lst, int f)
 {
 	t_list	*tmp;
-	int	index;
+	int		index;
 
 	index = 1;
 	tmp = lst;
@@ -12,7 +12,5 @@ int		ft_lstfindindex(t_list *lst, int f)
 		tmp = tmp->next;
 		index++;
 	}
-//	if (index > ft_lstsize(tmp)/2)
-//		index = index - ft_lstsize(tmp)/2;
 	return (index);
 }

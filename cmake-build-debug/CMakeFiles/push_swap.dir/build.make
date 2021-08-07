@@ -115,22 +115,9 @@ CMakeFiles/push_swap.dir/validation.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/validation.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mshmelly/21/1push/validation.c -o CMakeFiles/push_swap.dir/validation.c.s
 
-CMakeFiles/push_swap.dir/from_the_article.c.o: CMakeFiles/push_swap.dir/flags.make
-CMakeFiles/push_swap.dir/from_the_article.c.o: ../from_the_article.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mshmelly/21/1push/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/push_swap.dir/from_the_article.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/from_the_article.c.o -c /Users/mshmelly/21/1push/from_the_article.c
-
-CMakeFiles/push_swap.dir/from_the_article.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/from_the_article.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mshmelly/21/1push/from_the_article.c > CMakeFiles/push_swap.dir/from_the_article.c.i
-
-CMakeFiles/push_swap.dir/from_the_article.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/from_the_article.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mshmelly/21/1push/from_the_article.c -o CMakeFiles/push_swap.dir/from_the_article.c.s
-
 CMakeFiles/push_swap.dir/sort.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/sort.c.o: ../sort.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mshmelly/21/1push/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/push_swap.dir/sort.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mshmelly/21/1push/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/push_swap.dir/sort.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/sort.c.o -c /Users/mshmelly/21/1push/sort.c
 
 CMakeFiles/push_swap.dir/sort.c.i: cmake_force
@@ -143,7 +130,7 @@ CMakeFiles/push_swap.dir/sort.c.s: cmake_force
 
 CMakeFiles/push_swap.dir/action/swap.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/action/swap.c.o: ../action/swap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mshmelly/21/1push/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/push_swap.dir/action/swap.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mshmelly/21/1push/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/push_swap.dir/action/swap.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/action/swap.c.o -c /Users/mshmelly/21/1push/action/swap.c
 
 CMakeFiles/push_swap.dir/action/swap.c.i: cmake_force
@@ -156,7 +143,7 @@ CMakeFiles/push_swap.dir/action/swap.c.s: cmake_force
 
 CMakeFiles/push_swap.dir/action/rotate.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/action/rotate.c.o: ../action/rotate.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mshmelly/21/1push/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/push_swap.dir/action/rotate.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mshmelly/21/1push/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/push_swap.dir/action/rotate.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/action/rotate.c.o -c /Users/mshmelly/21/1push/action/rotate.c
 
 CMakeFiles/push_swap.dir/action/rotate.c.i: cmake_force
@@ -169,7 +156,7 @@ CMakeFiles/push_swap.dir/action/rotate.c.s: cmake_force
 
 CMakeFiles/push_swap.dir/action/reverce_rorate.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/action/reverce_rorate.c.o: ../action/reverce_rorate.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mshmelly/21/1push/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/push_swap.dir/action/reverce_rorate.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mshmelly/21/1push/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/push_swap.dir/action/reverce_rorate.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/action/reverce_rorate.c.o -c /Users/mshmelly/21/1push/action/reverce_rorate.c
 
 CMakeFiles/push_swap.dir/action/reverce_rorate.c.i: cmake_force
@@ -182,7 +169,7 @@ CMakeFiles/push_swap.dir/action/reverce_rorate.c.s: cmake_force
 
 CMakeFiles/push_swap.dir/action/push.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/action/push.c.o: ../action/push.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mshmelly/21/1push/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/push_swap.dir/action/push.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mshmelly/21/1push/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/push_swap.dir/action/push.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/action/push.c.o -c /Users/mshmelly/21/1push/action/push.c
 
 CMakeFiles/push_swap.dir/action/push.c.i: cmake_force
@@ -198,7 +185,6 @@ push_swap_OBJECTS = \
 "CMakeFiles/push_swap.dir/main.c.o" \
 "CMakeFiles/push_swap.dir/utils.c.o" \
 "CMakeFiles/push_swap.dir/validation.c.o" \
-"CMakeFiles/push_swap.dir/from_the_article.c.o" \
 "CMakeFiles/push_swap.dir/sort.c.o" \
 "CMakeFiles/push_swap.dir/action/swap.c.o" \
 "CMakeFiles/push_swap.dir/action/rotate.c.o" \
@@ -211,7 +197,6 @@ push_swap_EXTERNAL_OBJECTS =
 push_swap: CMakeFiles/push_swap.dir/main.c.o
 push_swap: CMakeFiles/push_swap.dir/utils.c.o
 push_swap: CMakeFiles/push_swap.dir/validation.c.o
-push_swap: CMakeFiles/push_swap.dir/from_the_article.c.o
 push_swap: CMakeFiles/push_swap.dir/sort.c.o
 push_swap: CMakeFiles/push_swap.dir/action/swap.c.o
 push_swap: CMakeFiles/push_swap.dir/action/rotate.c.o
@@ -220,7 +205,7 @@ push_swap: CMakeFiles/push_swap.dir/action/push.c.o
 push_swap: CMakeFiles/push_swap.dir/build.make
 push_swap: ../libft/libft.a
 push_swap: CMakeFiles/push_swap.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mshmelly/21/1push/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking C executable push_swap"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mshmelly/21/1push/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking C executable push_swap"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/push_swap.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

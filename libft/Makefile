@@ -16,7 +16,8 @@ LIST	=	ft_atoi.c			ft_bzero.c			ft_isalnum.c\
 			ft_atoi_int.c		ft_error.c			ft_lstfind.c\
 			ft_lstnew.c			ft_lstadd_front.c	ft_lstsize.c\
 			ft_lstlast.c		ft_lstadd_back.c	ft_lstdelone.c\
-			ft_lstclear.c		ft_lstfind_error.c		ft_lstfindmax.c
+			ft_lstclear.c		ft_lstfind_error.c		ft_lstfindmax.c\
+			ft_max.c
 			
 HEADER	=	libft.h	get_next_line.h
 

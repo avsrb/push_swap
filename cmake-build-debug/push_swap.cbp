@@ -92,9 +92,6 @@
 		<Unit filename="/Users/mshmelly/21/1push/action/swap.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/mshmelly/21/1push/from_the_article.c">
-			<Option target="push_swap"/>
-		</Unit>
 		<Unit filename="/Users/mshmelly/21/1push/main.c">
 			<Option target="push_swap"/>
 		</Unit>
