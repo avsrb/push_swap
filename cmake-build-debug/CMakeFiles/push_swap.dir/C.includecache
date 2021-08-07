@@ -6,6 +6,22 @@
 
 #IncludeRegexTransform: 
 
+/Users/mshmelly/21/1push/action/push.c
+../push_swap.h
+/Users/mshmelly/21/1push/push_swap.h
+
+/Users/mshmelly/21/1push/action/reverce_rorate.c
+../push_swap.h
+/Users/mshmelly/21/1push/push_swap.h
+
+/Users/mshmelly/21/1push/action/rotate.c
+../push_swap.h
+/Users/mshmelly/21/1push/push_swap.h
+
+/Users/mshmelly/21/1push/action/swap.c
+../push_swap.h
+/Users/mshmelly/21/1push/push_swap.h
+
 /Users/mshmelly/21/1push/libft/get_next_line.h
 stdio.h
 -
@@ -45,4 +61,16 @@ stdbool.h
 -
 limits.h
 -
+
+/Users/mshmelly/21/1push/sort.c
+push_swap.h
+/Users/mshmelly/21/1push/push_swap.h
+
+/Users/mshmelly/21/1push/utils.c
+push_swap.h
+/Users/mshmelly/21/1push/push_swap.h
+
+/Users/mshmelly/21/1push/validation.c
+push_swap.h
+/Users/mshmelly/21/1push/push_swap.h
 

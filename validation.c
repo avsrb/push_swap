@@ -14,34 +14,17 @@ int	check_sort(t_list *list)
 	return (0);
 }
 
-int	skipping(char *str)
+void	validation_nbr(char *str)
 {
 	int	i;
 
 	i = 0;
-	if (!str[i])
-		ft_error("Not enough arguments\n");
 	while (str[i])
 	{
-		if ((str[i] >= 9 && str[i] <= 13) || str[i] == 32)
-			i++;
-		else if (str[i] >= '0' && str[i] <= '9')
-			i++;
-		else if (str[i] == '+' || str[i] == '-')
-			i++;
+		if ((str[i] >= '0' && str[i] <= '9') || str[i] == '-' || str[i] == '+')
+			;
 		else
-			return (EXIT_FAILURE);
+			ft_error(0);
+		i++;
 	}
-	return (EXIT_SUCCESS);
-}
-
-int	validation(int argc, char **argv)
-{
-	if (argc < 2)
-		ft_error("Not enough arguments\n");
-	while (*(++argv))
-	{
-		return (skipping(*argv));
-	}
-	return (0);
 }

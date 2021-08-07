@@ -27,9 +27,8 @@ typedef struct s_stack
 	int		len_a;
 }			t_stack;
 
-int		validation(int argc, char **argv);
-void	from_array(int argc, char **argv, t_list **a);
-int		skipping(char *str);
+void	from_array(char **argv, t_list **a);
+void	validation_nbr(char *str);
 int		check_sort(t_list *list);
 int		sort(t_stack *stack);
 
@@ -43,6 +42,5 @@ void	moves_ra_and_rrb(t_stack *st);
 void	moves_rb_and_rra(t_stack *st);
 
 void	find_best_action(t_stack *st);
-
 
 #endif

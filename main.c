@@ -1,23 +1,29 @@
 #include "push_swap.h"
 
-void	from_array(int argc, char **argv, t_list **a)
+void	from_array(char **argv, t_list **a)
 {
-	int	i;
-	int	nbr;
+	int		i;
+	int		i1;
+	int		nbr;
+	char	**pre_stack;
 
 	i = 1;
-	if (argc == 2)
-	{
-		argv = ft_split(argv[1], ' ');
-		if (argv[1] == NULL)
-			exit(0);
-		i = 0;
-	}
+	if (argv[i] == NULL)
+		ft_putendl_fd("Not enough arguments", 1);
 	while (argv[i])
 	{
-		nbr = ft_atoi_int(argv[i]);
-		ft_lstfind_error(*a, nbr);
-		ft_lstadd_back(a, ft_lstnew(nbr));
+		i1 = 0;
+		pre_stack = ft_split(argv[i], ' ');
+		while (pre_stack[i1] != NULL)
+		{
+			validation_nbr(pre_stack[i1]);
+			nbr = ft_atoi_int(pre_stack[i1]);
+			ft_lstfind_error(*a, nbr);
+			ft_lstadd_back(a, ft_lstnew(nbr));
+			free(pre_stack[i1]);
+			i1++;
+		}
+		free(pre_stack);
 		i++;
 	}
 }
@@ -28,9 +34,8 @@ int	main(int argc, char **argv)
 
 	stack.a = NULL;
 	stack.b = NULL;
-	if (validation(argc, argv))
-		ft_error(0);
-	from_array(argc, argv, &stack.a);
+	(void)argc;
+	from_array(argv, &stack.a);
 	if (!check_sort(stack.a))
 		return (0);
 	sort(&stack);
