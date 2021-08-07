@@ -42,7 +42,7 @@ void	sort_main(t_stack *st)
 	}
 	while (check_sort(st->a))
 	{
-		if (st->a->data <= ft_lstsize(st->a))
+		if (st->moves.ra <= ft_lstsize(st->a))
 			rotate(st, 'a');
 		else
 			reverse_rotate(st, 'a');

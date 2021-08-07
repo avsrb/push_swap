@@ -28,10 +28,11 @@ typedef struct s_stack
 }			t_stack;
 
 int		validation(int argc, char **argv);
+void	from_array(int argc, char **argv, t_list **a);
 int		skipping(char *str);
 int		check_sort(t_list *list);
 int		sort(t_stack *stack);
-//action
+
 void	swap(t_stack *stack, char name);
 void	rotate(t_stack *stack, char name);
 void	reverse_rotate(t_stack *stack, char name);
@@ -43,6 +44,5 @@ void	moves_rb_and_rra(t_stack *st);
 
 void	find_best_action(t_stack *st);
 
-void	st_print(t_list *st_a, t_list *st_b);
 
 #endif

@@ -10,7 +10,7 @@ void	from_array(int argc, char **argv, t_list **a)
 	{
 		argv = ft_split(argv[1], ' ');
 		if (argv[1] == NULL)
-			ft_error(0);
+			exit(0);
 		i = 0;
 	}
 	while (argv[i])
