@@ -5,13 +5,13 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "/Users/mshmelly/21/1push/action/push.c" "/Users/mshmelly/21/1push/cmake-build-debug/CMakeFiles/push_swap.dir/action/push.c.o"
-  "/Users/mshmelly/21/1push/action/reverce_rorate.c" "/Users/mshmelly/21/1push/cmake-build-debug/CMakeFiles/push_swap.dir/action/reverce_rorate.c.o"
+  "/Users/mshmelly/21/1push/action/reverce_rotate.c" "/Users/mshmelly/21/1push/cmake-build-debug/CMakeFiles/push_swap.dir/action/reverce_rotate.c.o"
   "/Users/mshmelly/21/1push/action/rotate.c" "/Users/mshmelly/21/1push/cmake-build-debug/CMakeFiles/push_swap.dir/action/rotate.c.o"
   "/Users/mshmelly/21/1push/action/swap.c" "/Users/mshmelly/21/1push/cmake-build-debug/CMakeFiles/push_swap.dir/action/swap.c.o"
-  "/Users/mshmelly/21/1push/main.c" "/Users/mshmelly/21/1push/cmake-build-debug/CMakeFiles/push_swap.dir/main.c.o"
-  "/Users/mshmelly/21/1push/sort.c" "/Users/mshmelly/21/1push/cmake-build-debug/CMakeFiles/push_swap.dir/sort.c.o"
-  "/Users/mshmelly/21/1push/utils.c" "/Users/mshmelly/21/1push/cmake-build-debug/CMakeFiles/push_swap.dir/utils.c.o"
-  "/Users/mshmelly/21/1push/validation.c" "/Users/mshmelly/21/1push/cmake-build-debug/CMakeFiles/push_swap.dir/validation.c.o"
+  "/Users/mshmelly/21/1push/src/main.c" "/Users/mshmelly/21/1push/cmake-build-debug/CMakeFiles/push_swap.dir/src/main.c.o"
+  "/Users/mshmelly/21/1push/src/sort.c" "/Users/mshmelly/21/1push/cmake-build-debug/CMakeFiles/push_swap.dir/src/sort.c.o"
+  "/Users/mshmelly/21/1push/src/utils.c" "/Users/mshmelly/21/1push/cmake-build-debug/CMakeFiles/push_swap.dir/src/utils.c.o"
+  "/Users/mshmelly/21/1push/src/validation.c" "/Users/mshmelly/21/1push/cmake-build-debug/CMakeFiles/push_swap.dir/src/validation.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

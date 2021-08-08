@@ -1,7 +1,7 @@
 #ifndef PUSH_SWAP_H
 # define PUSH_SWAP_H
 
-# include "./libft/libft.h"
+# include "./../libft/libft.h"
 # include <stdio.h>
 # include <stdlib.h>
 # include <unistd.h>
@@ -31,7 +31,6 @@ void	from_array(char **argv, t_list **a);
 void	validation_nbr(char *str);
 int		check_sort(t_list *list);
 int		sort(t_stack *stack);
-
 void	swap(t_stack *stack, char name);
 void	rotate(t_stack *stack, char name);
 void	reverse_rotate(t_stack *stack, char name);

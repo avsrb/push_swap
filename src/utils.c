@@ -1,4 +1,4 @@
-#include "push_swap.h"
+#include "./../include/push_swap.h"
 
 int	nearest_value_optional(t_list *st_a, t_list *st_b)
 {

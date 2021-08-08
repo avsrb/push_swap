@@ -169,32 +169,32 @@ action/push.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/action/push.c.s
 .PHONY : action/push.c.s
 
-action/reverce_rorate.o: action/reverce_rorate.c.o
+action/reverce_rotate.o: action/reverce_rotate.c.o
 
-.PHONY : action/reverce_rorate.o
+.PHONY : action/reverce_rotate.o
 
 # target to build an object file
-action/reverce_rorate.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/action/reverce_rorate.c.o
-.PHONY : action/reverce_rorate.c.o
+action/reverce_rotate.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/action/reverce_rotate.c.o
+.PHONY : action/reverce_rotate.c.o
 
-action/reverce_rorate.i: action/reverce_rorate.c.i
+action/reverce_rotate.i: action/reverce_rotate.c.i
 
-.PHONY : action/reverce_rorate.i
+.PHONY : action/reverce_rotate.i
 
 # target to preprocess a source file
-action/reverce_rorate.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/action/reverce_rorate.c.i
-.PHONY : action/reverce_rorate.c.i
+action/reverce_rotate.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/action/reverce_rotate.c.i
+.PHONY : action/reverce_rotate.c.i
 
-action/reverce_rorate.s: action/reverce_rorate.c.s
+action/reverce_rotate.s: action/reverce_rotate.c.s
 
-.PHONY : action/reverce_rorate.s
+.PHONY : action/reverce_rotate.s
 
 # target to generate assembly for a file
-action/reverce_rorate.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/action/reverce_rorate.c.s
-.PHONY : action/reverce_rorate.c.s
+action/reverce_rotate.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/action/reverce_rotate.c.s
+.PHONY : action/reverce_rotate.c.s
 
 action/rotate.o: action/rotate.c.o
 
@@ -250,113 +250,113 @@ action/swap.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/action/swap.c.s
 .PHONY : action/swap.c.s
 
-main.o: main.c.o
+src/main.o: src/main.c.o
 
-.PHONY : main.o
-
-# target to build an object file
-main.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/main.c.o
-.PHONY : main.c.o
-
-main.i: main.c.i
-
-.PHONY : main.i
-
-# target to preprocess a source file
-main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/main.c.i
-.PHONY : main.c.i
-
-main.s: main.c.s
-
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/main.c.s
-.PHONY : main.c.s
-
-sort.o: sort.c.o
-
-.PHONY : sort.o
+.PHONY : src/main.o
 
 # target to build an object file
-sort.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sort.c.o
-.PHONY : sort.c.o
+src/main.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/main.c.o
+.PHONY : src/main.c.o
 
-sort.i: sort.c.i
+src/main.i: src/main.c.i
 
-.PHONY : sort.i
+.PHONY : src/main.i
 
 # target to preprocess a source file
-sort.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sort.c.i
-.PHONY : sort.c.i
+src/main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/main.c.i
+.PHONY : src/main.c.i
 
-sort.s: sort.c.s
+src/main.s: src/main.c.s
 
-.PHONY : sort.s
+.PHONY : src/main.s
 
 # target to generate assembly for a file
-sort.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sort.c.s
-.PHONY : sort.c.s
+src/main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/main.c.s
+.PHONY : src/main.c.s
 
-utils.o: utils.c.o
+src/sort.o: src/sort.c.o
 
-.PHONY : utils.o
+.PHONY : src/sort.o
 
 # target to build an object file
-utils.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/utils.c.o
-.PHONY : utils.c.o
+src/sort.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/sort.c.o
+.PHONY : src/sort.c.o
 
-utils.i: utils.c.i
+src/sort.i: src/sort.c.i
 
-.PHONY : utils.i
+.PHONY : src/sort.i
 
 # target to preprocess a source file
-utils.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/utils.c.i
-.PHONY : utils.c.i
+src/sort.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/sort.c.i
+.PHONY : src/sort.c.i
 
-utils.s: utils.c.s
+src/sort.s: src/sort.c.s
 
-.PHONY : utils.s
+.PHONY : src/sort.s
 
 # target to generate assembly for a file
-utils.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/utils.c.s
-.PHONY : utils.c.s
+src/sort.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/sort.c.s
+.PHONY : src/sort.c.s
 
-validation.o: validation.c.o
+src/utils.o: src/utils.c.o
 
-.PHONY : validation.o
+.PHONY : src/utils.o
 
 # target to build an object file
-validation.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/validation.c.o
-.PHONY : validation.c.o
+src/utils.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/utils.c.o
+.PHONY : src/utils.c.o
 
-validation.i: validation.c.i
+src/utils.i: src/utils.c.i
 
-.PHONY : validation.i
+.PHONY : src/utils.i
 
 # target to preprocess a source file
-validation.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/validation.c.i
-.PHONY : validation.c.i
+src/utils.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/utils.c.i
+.PHONY : src/utils.c.i
 
-validation.s: validation.c.s
+src/utils.s: src/utils.c.s
 
-.PHONY : validation.s
+.PHONY : src/utils.s
 
 # target to generate assembly for a file
-validation.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/validation.c.s
-.PHONY : validation.c.s
+src/utils.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/utils.c.s
+.PHONY : src/utils.c.s
+
+src/validation.o: src/validation.c.o
+
+.PHONY : src/validation.o
+
+# target to build an object file
+src/validation.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/validation.c.o
+.PHONY : src/validation.c.o
+
+src/validation.i: src/validation.c.i
+
+.PHONY : src/validation.i
+
+# target to preprocess a source file
+src/validation.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/validation.c.i
+.PHONY : src/validation.c.i
+
+src/validation.s: src/validation.c.s
+
+.PHONY : src/validation.s
+
+# target to generate assembly for a file
+src/validation.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/validation.c.s
+.PHONY : src/validation.c.s
 
 # Help Target
 help:
@@ -370,27 +370,27 @@ help:
 	@echo "... action/push.o"
 	@echo "... action/push.i"
 	@echo "... action/push.s"
-	@echo "... action/reverce_rorate.o"
-	@echo "... action/reverce_rorate.i"
-	@echo "... action/reverce_rorate.s"
+	@echo "... action/reverce_rotate.o"
+	@echo "... action/reverce_rotate.i"
+	@echo "... action/reverce_rotate.s"
 	@echo "... action/rotate.o"
 	@echo "... action/rotate.i"
 	@echo "... action/rotate.s"
 	@echo "... action/swap.o"
 	@echo "... action/swap.i"
 	@echo "... action/swap.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
-	@echo "... sort.o"
-	@echo "... sort.i"
-	@echo "... sort.s"
-	@echo "... utils.o"
-	@echo "... utils.i"
-	@echo "... utils.s"
-	@echo "... validation.o"
-	@echo "... validation.i"
-	@echo "... validation.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
+	@echo "... src/sort.o"
+	@echo "... src/sort.i"
+	@echo "... src/sort.s"
+	@echo "... src/utils.o"
+	@echo "... src/utils.i"
+	@echo "... src/utils.s"
+	@echo "... src/validation.o"
+	@echo "... src/validation.i"
+	@echo "... src/validation.s"
 .PHONY : help
 
 

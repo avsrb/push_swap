@@ -3,41 +3,41 @@
 
 CMakeFiles/push_swap.dir/action/push.c.o
  /Users/mshmelly/21/1push/action/push.c
+ /Users/mshmelly/21/1push/include/push_swap.h
  /Users/mshmelly/21/1push/libft/get_next_line.h
  /Users/mshmelly/21/1push/libft/libft.h
- /Users/mshmelly/21/1push/push_swap.h
-CMakeFiles/push_swap.dir/action/reverce_rorate.c.o
- /Users/mshmelly/21/1push/action/reverce_rorate.c
+CMakeFiles/push_swap.dir/action/reverce_rotate.c.o
+ /Users/mshmelly/21/1push/action/reverce_rotate.c
+ /Users/mshmelly/21/1push/include/push_swap.h
  /Users/mshmelly/21/1push/libft/get_next_line.h
  /Users/mshmelly/21/1push/libft/libft.h
- /Users/mshmelly/21/1push/push_swap.h
 CMakeFiles/push_swap.dir/action/rotate.c.o
  /Users/mshmelly/21/1push/action/rotate.c
+ /Users/mshmelly/21/1push/include/push_swap.h
  /Users/mshmelly/21/1push/libft/get_next_line.h
  /Users/mshmelly/21/1push/libft/libft.h
- /Users/mshmelly/21/1push/push_swap.h
 CMakeFiles/push_swap.dir/action/swap.c.o
  /Users/mshmelly/21/1push/action/swap.c
+ /Users/mshmelly/21/1push/include/push_swap.h
  /Users/mshmelly/21/1push/libft/get_next_line.h
  /Users/mshmelly/21/1push/libft/libft.h
- /Users/mshmelly/21/1push/push_swap.h
-CMakeFiles/push_swap.dir/main.c.o
+CMakeFiles/push_swap.dir/src/main.c.o
+ /Users/mshmelly/21/1push/include/push_swap.h
  /Users/mshmelly/21/1push/libft/get_next_line.h
  /Users/mshmelly/21/1push/libft/libft.h
- /Users/mshmelly/21/1push/main.c
- /Users/mshmelly/21/1push/push_swap.h
-CMakeFiles/push_swap.dir/sort.c.o
+ /Users/mshmelly/21/1push/src/main.c
+CMakeFiles/push_swap.dir/src/sort.c.o
+ /Users/mshmelly/21/1push/include/push_swap.h
  /Users/mshmelly/21/1push/libft/get_next_line.h
  /Users/mshmelly/21/1push/libft/libft.h
- /Users/mshmelly/21/1push/push_swap.h
- /Users/mshmelly/21/1push/sort.c
-CMakeFiles/push_swap.dir/utils.c.o
+ /Users/mshmelly/21/1push/src/sort.c
+CMakeFiles/push_swap.dir/src/utils.c.o
+ /Users/mshmelly/21/1push/include/push_swap.h
  /Users/mshmelly/21/1push/libft/get_next_line.h
  /Users/mshmelly/21/1push/libft/libft.h
- /Users/mshmelly/21/1push/push_swap.h
- /Users/mshmelly/21/1push/utils.c
-CMakeFiles/push_swap.dir/validation.c.o
+ /Users/mshmelly/21/1push/src/utils.c
+CMakeFiles/push_swap.dir/src/validation.c.o
+ /Users/mshmelly/21/1push/include/push_swap.h
  /Users/mshmelly/21/1push/libft/get_next_line.h
  /Users/mshmelly/21/1push/libft/libft.h
- /Users/mshmelly/21/1push/push_swap.h
- /Users/mshmelly/21/1push/validation.c
+ /Users/mshmelly/21/1push/src/validation.c

@@ -83,7 +83,7 @@
 		<Unit filename="/Users/mshmelly/21/1push/action/push.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/mshmelly/21/1push/action/reverce_rorate.c">
+		<Unit filename="/Users/mshmelly/21/1push/action/reverce_rotate.c">
 			<Option target="push_swap"/>
 		</Unit>
 		<Unit filename="/Users/mshmelly/21/1push/action/rotate.c">
@@ -92,16 +92,16 @@
 		<Unit filename="/Users/mshmelly/21/1push/action/swap.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/mshmelly/21/1push/main.c">
+		<Unit filename="/Users/mshmelly/21/1push/src/main.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/mshmelly/21/1push/sort.c">
+		<Unit filename="/Users/mshmelly/21/1push/src/sort.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/mshmelly/21/1push/utils.c">
+		<Unit filename="/Users/mshmelly/21/1push/src/utils.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/mshmelly/21/1push/validation.c">
+		<Unit filename="/Users/mshmelly/21/1push/src/validation.c">
 			<Option target="push_swap"/>
 		</Unit>
 		<Unit filename="/Users/mshmelly/21/1push/CMakeLists.txt">

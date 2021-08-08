@@ -1,4 +1,4 @@
-#include "push_swap.h"
+#include "./../include/push_swap.h"
 
 void	from_array(char **argv, t_list **a)
 {

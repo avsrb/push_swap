@@ -1,4 +1,4 @@
-#include "push_swap.h"
+#include "./../include/push_swap.h"
 
 void	sort_two_elem(t_stack *stack)
 {
@@ -22,22 +22,37 @@ void	sort_three_elem(t_stack *s)
 	return ;
 }
 
+void	ft_choise_mode(t_stack *st)
+{
+	find_best_action(st);
+	if (st->moves.mode == 1)
+		moves_rotate(st);
+	if (st->moves.mode == 2)
+		moves_reverse_rotate(st);
+	if (st->moves.mode == 3)
+		moves_ra_and_rrb(st);
+	if (st->moves.mode == 4)
+		moves_rb_and_rra(st);
+}
+
 void	sort_main(t_stack *st)
 {
-	while (3 != st->len_a--)
-		push(st, 'b');
+	int		med;
+	int		med_size;
+
+	med_size = ft_lstsize(st->a) / 2;
+	med = (ft_lstfindmax(st->a) - ft_lstfindmin(st->a)) / 2 + 1;
+	while (3 != ft_lstsize(st->a))
+	{
+		if (med < st->a->data && ft_lstsize(st->a) > med_size && med_size > 100)
+			rotate(st, 'a');
+		else
+			push(st, 'b');
+	}
 	sort_three_elem(st);
 	while (st->b)
 	{
-		find_best_action(st);
-		if (st->moves.mode == 1)
-			moves_rotate(st);
-		if (st->moves.mode == 2)
-			moves_reverse_rotate(st);
-		if (st->moves.mode == 3)
-			moves_ra_and_rrb(st);
-		if (st->moves.mode == 4)
-			moves_rb_and_rra(st);
+		ft_choise_mode(st);
 		push(st, 'a');
 	}
 	while (check_sort(st->a))

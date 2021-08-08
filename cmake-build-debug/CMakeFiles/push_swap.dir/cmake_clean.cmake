@@ -1,12 +1,12 @@
 file(REMOVE_RECURSE
   "CMakeFiles/push_swap.dir/action/push.c.o"
-  "CMakeFiles/push_swap.dir/action/reverce_rorate.c.o"
+  "CMakeFiles/push_swap.dir/action/reverce_rotate.c.o"
   "CMakeFiles/push_swap.dir/action/rotate.c.o"
   "CMakeFiles/push_swap.dir/action/swap.c.o"
-  "CMakeFiles/push_swap.dir/main.c.o"
-  "CMakeFiles/push_swap.dir/sort.c.o"
-  "CMakeFiles/push_swap.dir/utils.c.o"
-  "CMakeFiles/push_swap.dir/validation.c.o"
+  "CMakeFiles/push_swap.dir/src/main.c.o"
+  "CMakeFiles/push_swap.dir/src/sort.c.o"
+  "CMakeFiles/push_swap.dir/src/utils.c.o"
+  "CMakeFiles/push_swap.dir/src/validation.c.o"
   "push_swap"
   "push_swap.pdb"
 )

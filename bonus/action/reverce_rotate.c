@@ -32,4 +32,3 @@ void	reverse_rotate(t_stack *stack, char name)
 		reverse_rotate_action(&stack->b);
 	}
 }
-

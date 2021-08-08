@@ -1,4 +1,4 @@
-#include "push_swap.h"
+#include "./../include/push_swap.h"
 
 int	check_sort(t_list *list)
 {
@@ -16,14 +16,20 @@ int	check_sort(t_list *list)
 
 void	validation_nbr(char *str)
 {
-	int	i;
+	int		i;
+	int		flag_sign;
 
+	flag_sign = 0;
 	i = 0;
 	while (str[i])
 	{
-		if ((str[i] >= '0' && str[i] <= '9') || str[i] == '-' || str[i] == '+')
+		if (str[i] == '-' || str[i] == '+')
+			flag_sign += 1;
+		else if (str[i] >= '0' && str[i] <= '9')
 			;
 		else
+			ft_error(0);
+		if (flag_sign > 1)
 			ft_error(0);
 		i++;
 	}

@@ -57,6 +57,7 @@ void	ft_lstadd_back(t_list **lst, t_list *new);
 void	ft_lstdelone(t_list *lst);
 void	ft_lstclear(t_list **lst);
 int		ft_lstfindmax(t_list *lst);
+int		ft_lstfindmin(t_list *lst);
 char	*ft_strnew(size_t size);
 char	*ft_strcpy(char *dest, char *src);
 void	ft_strclr(char *s);
