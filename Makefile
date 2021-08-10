@@ -25,12 +25,14 @@ bonus	: $(NAME_B)
 $(NAME)	: $(OBJ) $(LIST)
 	$(MAKE) -C ./libft
 	$(GCC) $(LIST) ./libft/libft.a -o $(NAME)
-#	@echo Сould you please give me the numbers to sort?
+	@clear
+	@echo Сould you please give me the numbers to sort?
 
 $(NAME_B)	: $(OBJ_B) $(LIST_B)
 	$(MAKE) -C ./libft
 	$(GCC) $(LIST_B) ./libft/libft.a -o $(NAME_B)
-	#@echo Play?
+	@clear
+	@echo Play?
 
 clean	:
 	rm -f $(OBJ) $(OBJ_B)

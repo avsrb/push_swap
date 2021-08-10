@@ -96,7 +96,7 @@ int	main(int argc, char **argv)
 	st.b = NULL;
 	(void)argc;
 	from_array(argv, &st.a);
-	while (get_next_line(1, &line))
+	while (get_next_line(0, &line))
 	{
 		command(&st, line);
 		free(line);
