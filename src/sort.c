@@ -41,7 +41,7 @@ void	sort_main(t_stack *st)
 	int		med_size;
 
 	med_size = ft_lstsize(st->a) / 2;
-	med = (ft_lstfindmax(st->a) - ft_lstfindmin(st->a)) / 2 + 1;
+	med = ft_lstmed(st->a);
 	while (3 != ft_lstsize(st->a))
 	{
 		if (med < st->a->data && ft_lstsize(st->a) > med_size && med_size > 100)

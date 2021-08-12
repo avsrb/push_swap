@@ -12,6 +12,7 @@ typedef struct s_list
 	struct s_list	*next;
 }				t_list;
 
+int		ft_lstmed(t_list *lst);
 int		ft_max(int a, int b);
 void	*ft_memset(void *b, int c, size_t len);
 void	ft_bzero(void *s, size_t n);
