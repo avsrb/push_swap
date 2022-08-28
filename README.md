@@ -3,9 +3,9 @@
 ## Installation:
 
 ```
-git clone --recurse-submodules https://github.com/rizkyario/42-push_swap.git; cd 42-push_swap; make
+git clone --recurse-submodules https://github.com/avsrb/push_swap.git; cd push_swap; make
 ```
 
 ## Usage:
 ```
-ARG=`ruby -e "puts (1..50).to_a.shuffle.join(' ')"`; ./push_swap $ARG | ./checker -vcat $ARG
+ARG=`ruby -e "puts (1..500).to_a.shuffle.join(' ')"`; ./push_swap $ARG | ./checker -vcat $ARG
